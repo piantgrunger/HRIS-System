@@ -123,7 +123,7 @@ InboxWidget::run();
                 <ul>
                     <li>
                         <a href="#">
-                            PEMERINTAH KOTA HRIS
+                            HRM System
                         </a>
                     </li>
                 </ul>
@@ -132,7 +132,7 @@ InboxWidget::run();
                 &copy;
                 <script>
                     document.write(new Date().getFullYear())
-                </script>, HRIS Bagawi.
+                </script>, Phi Soft
             </div>
         </div>
     </footer>
