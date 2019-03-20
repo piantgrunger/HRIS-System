@@ -1,0 +1,479 @@
+1,101100,GURU,44,45,60,Pendidikan,Ahli,Dosen,6,6,2,1,3
+2,101101,Lektor Kepala,41,43,65,Pendidikan,Ahli,Dosen,13,15,1,1,0
+3,101102,Lektor,33,34,65,Pendidikan,Ahli,Dosen,11,12,1,1,0
+5,101200,Lektor Kepala,41,43,65,Pendidikan,Ahli,Dosen,13,15,1,1,0
+6,101201,Lektor,33,34,65,Pendidikan,Ahli,Dosen,11,12,1,1,0
+8,103100,Guru Utama,45,45,60,Pendidikan,Ahli,Guru,17,17,2,1,0
+9,103101,Guru Utama Madya,44,44,60,Pendidikan,Ahli,Guru,16,16,2,1,0
+10,103102,Guru Utama Muda,43,43,60,Pendidikan,Ahli,Guru,15,15,2,1,0
+11,103103,Guru Pembina Tk. I,42,42,60,Pendidikan,Ahli,Guru,14,14,2,1,0
+12,103104,GURU PEMBINA,41,41,60,Pendidikan,Ahli,Guru,13,13,2,1,3
+13,103105,GURU KELAS,34,34,60,Pendidikan,Ahli,Guru,5,9,2,1,3
+14,103106,GURU DEWASA,33,33,60,Pendidikan,Ahli,Guru,11,11,1,2,3
+15,103107,Guru Madya Tk. I,32,32,60,Pendidikan,Ahli,Guru,10,10,2,1,0
+16,103108,GURU MATA PELAJARAN,31,31,60,Pendidikan,Ahli,Guru,9,9,1,2,3
+17,103109,GURU MUDA TK. I,24,24,60,Pendidikan,Ahli,Guru,8,8,2,1,3
+18,103110,GURU MUDA,23,23,60,Pendidikan,Ahli,Guru,7,7,2,1,3
+19,103111,Guru Pratama Tk. I,22,22,60,Pendidikan,Ahli,Guru,6,6,2,1,0
+20,103112,Guru Pratama,21,21,60,Pendidikan,Ahli,Guru,5,5,2,1,0
+21,104100,Pamong Belajar Madya,41,43,60,Pendidikan,Ahli,Pamong Belajar,13,15,3,1,0
+22,104101,Pamong Belajar Muda,33,34,60,Pendidikan,Ahli,Pamong Belajar,11,12,3,1,0
+23,104102,Pamong Belajar Pertama,31,32,56,Pendidikan,Ahli,Pamong Belajar,9,10,3,1,0
+24,104200,Pamong Belajar Penyelia,33,34,60,Pendidikan,Terampil,Pamong Belajar,11,12,3,1,0
+25,104201,Pamong Belajar Pelaksana Lanjutan,31,32,56,Pendidikan,Terampil,Pamong Belajar,9,10,3,1,0
+26,104202,Pamong Belajar Pelaksana,22,24,56,Pendidikan,Terampil,Pamong Belajar,6,8,3,1,0
+27,105100,Pengawas Sekolah Utama SLB,44,45,60,Pendidikan,Ahli,Pengawas Sekolah,16,17,4,1,0
+28,105101,PENGAWAS SEKOLAH MADYA,41,43,61,Pendidikan,Ahli,Pengawas Sekolah,13,13,4,1,3
+29,105102,Pengawas Sekolah Muda SLB,33,34,60,Pendidikan,Ahli,Pengawas Sekolah,11,12,4,1,0
+30,105103,Pengawas Sekolah Pertama SLB,31,32,60,Pendidikan,Ahli,Pengawas Sekolah,9,10,4,1,0
+31,105104,Pengawas Sekolah Utama SLTP/SLTA,44,45,60,Pendidikan,Ahli,Pengawas Sekolah,16,17,4,1,0
+32,105105,Pengawas Sekolah Madya SLTP/SLTA,41,43,60,Pendidikan,Ahli,Pengawas Sekolah,13,15,4,1,0
+33,105106,Pengawas Sekolah Muda SLTP/SLTA,33,34,60,Pendidikan,Ahli,Pengawas Sekolah,11,12,4,1,0
+34,105107,Pengawas Sekolah Pertama SLTP/SLTA,31,32,60,Pendidikan,Ahli,Pengawas Sekolah,9,10,4,1,0
+35,105108,Pengawas Sekolah Utama TK/SD,44,45,60,Pendidikan,Ahli,Pengawas Sekolah,16,17,4,1,0
+36,105109,Pengawas Sekolah Madya TK/SD,41,43,60,Pendidikan,Ahli,Pengawas Sekolah,13,15,4,1,0
+37,105110,Pengawas Sekolah Muda TK/SD,33,34,60,Pendidikan,Ahli,Pengawas Sekolah,11,12,4,1,0
+38,105111,Pengawas Sekolah Pertama TK/SD,31,32,60,Pendidikan,Ahli,Pengawas Sekolah,9,10,4,1,0
+39,106100,Penilik Madya,41,43,56,Pendidikan,Ahli,Penilik,13,15,5,1,0
+40,106101,Penilik Muda,33,34,56,Pendidikan,Ahli,Penilik,11,12,5,1,0
+41,106102,Penilik Pertama,31,32,56,Pendidikan,Ahli,Penilik,9,10,5,1,0
+42,106200,Penilik Penyelia,33,34,56,Pendidikan,Terampil,Penilik,11,12,5,1,0
+43,106201,Penilik Pelaksana Lanjutan,31,32,56,Pendidikan,Terampil,Penilik,9,10,5,1,0
+44,106202,Penilik Pelaksana,22,24,56,Pendidikan,Terampil,Penilik,6,8,5,1,0
+45,107100,Instruktur Madya ,41,43,56,Pendidikan,Ahli,Instruktur,13,15,6,1,0
+46,107101,Instruktur Muda ,33,34,56,Pendidikan,Ahli,Instruktur,11,12,6,1,0
+47,107102,Instruktur Pertama ,31,32,56,Pendidikan,Ahli,Instruktur,9,10,6,1,0
+48,107200,Instruktur Penyelia ,33,34,56,Pendidikan,Terampil,Instruktur,11,12,6,1,0
+49,107201,Instruktur Pelaksana Lanjutan ,31,32,56,Pendidikan,Terampil,Instruktur,9,10,6,1,0
+50,107202,Instruktur Pelaksana ,22,24,56,Pendidikan,Terampil,Instruktur,6,8,6,1,0
+51,108100,WIDYAISWARA UTAMA,44,45,56,Pendidikan,Ahli,Widyaiswara,16,16,7,1,3
+52,108101,WIDYAISWARA MADYA,41,43,56,Pendidikan,Ahli,Widyaiswara,13,13,7,1,3
+53,108102,WIDYAISWARA MUDA,33,34,56,Pendidikan,Ahli,Widyaiswara,11,11,7,1,3
+54,108103,WIDYAISWARA PERTAMA,31,32,56,Pendidikan,Ahli,Widyaiswara,9,9,7,1,3
+56,,GURU PRATAMA,,,56,,,,0,0,0,0,3
+57,201102,DOKTER UMUM,33,34,60,Kesehatan,Ahli,Dokter,10,15,8,2,3
+59,202100,Dokter Gigi Utama,44,45,60,Kesehatan,Ahli,Dokter Gigi,16,17,9,2,0
+60,202101,Dokter Madya,41,43,60,Kesehatan,Ahli,Dokter Gigi,13,13,8,2,3
+61,202102,Dokter Gigi Muda,33,34,60,Kesehatan,Ahli,Dokter Gigi,11,12,9,2,0
+62,202103,Dokter Gigi Pertama,32,32,60,Kesehatan,Ahli,Dokter Gigi,10,10,9,2,0
+63,203100,Bidan Penyelia,33,34,56,Kesehatan,Terampil,Bidan,11,12,10,2,0
+64,203101,Bidan Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Bidan,9,10,10,2,0
+65,203102,Bidan Pelaksana,22,24,56,Kesehatan,Terampil,Bidan,6,8,10,2,0
+66,204100,Perawat Madya,41,43,60,Kesehatan,Ahli,Perawat,13,15,11,2,0
+67,204101,Perawat Muda,33,34,60,Kesehatan,Ahli,Perawat,11,12,11,2,0
+68,204102,Perawat Pertama,31,32,60,Kesehatan,Ahli,Perawat,9,10,11,2,0
+69,204200,Perawat Penyelia,33,34,56,Kesehatan,Terampil,Perawat,11,12,11,2,0
+70,204201,Perawat Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Perawat,9,10,11,2,0
+71,204202,Perawat Pelaksana,22,24,56,Kesehatan,Terampil,Perawat,6,8,11,2,0
+72,204203,Perawat Pelaksana Pemula,21,21,56,Kesehatan,Terampil,Perawat,5,5,11,2,0
+73,205200,Perawat Gigi Penyelia,33,34,56,Kesehatan,Terampil,Perawat Gigi,11,12,12,2,0
+74,205201,Perawat Gigi Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Perawat Gigi,9,10,12,2,0
+75,205202,Perawat Gigi Pelaksana,22,24,56,Kesehatan,Terampil,Perawat Gigi,6,8,12,2,0
+76,205203,Perawat Gigi Pelaksana Pemula,21,21,56,Kesehatan,Terampil,Perawat Gigi,5,5,12,2,0
+81,206101,PENJAGA SEKOLAH,41,43,60,Kesehatan,Ahli,Apoteker,1,5,0,2,3
+88,208100,Entomolog Kesehatan Madya,41,43,56,Kesehatan,Ahli,Entomolog Kesehatan,13,15,16,2,0
+89,208101,Entomolog Kesehatan Muda,33,34,56,Kesehatan,Ahli,Entomolog Kesehatan,11,12,16,2,0
+91,208201,Entomolog Kesehatan Penyelia,33,34,56,Kesehatan,Terampil,Entomolog Kesehatan,11,12,16,2,0
+92,208202,Entomolog Kesehatan Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Entomolog Kesehatan,9,10,16,2,0
+93,208203,Entomolog Kesehatan Pelaksana  ,22,24,56,Kesehatan,Terampil,Entomolog Kesehatan,6,8,16,2,0
+94,208204,Entomolog Kesehatan Pelaksana Pemula,21,21,56,Kesehatan,Terampil,Entomolog Kesehatan,5,5,16,2,0
+95,209100,Epidemiolog Kesehatan Madya,41,43,56,Kesehatan,Ahli,Epidemiolog Kesehatan,13,15,98,2,0
+96,209101,Epidemiolog Kesehatan Muda ,33,34,56,Kesehatan,Ahli,Epidemiolog Kesehatan,11,12,98,2,0
+97,209102,Epidemiolog Kesehatan Pertama,31,32,56,Kesehatan,Ahli,Epidemiolog Kesehatan,9,10,98,2,0
+98,209200,Epidemiolog Kesehatan Penyelia,33,34,56,Kesehatan,Terampil,Epidemiolog Kesehatan,11,12,98,2,0
+99,209201,Epidemiolog Kesehatan Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Epidemiolog Kesehatan,9,10,98,2,0
+100,209202,Epidemiolog Kesehatan Pelaksana,22,24,60,Kesehatan,Terampil,Epidemiolog Kesehatan,6,6,13,2,3
+101,209203,Epidemiolog Kesehatan Pelaksana Pemula,21,21,56,Kesehatan,Terampil,Epidemiolog Kesehatan,5,5,98,2,0
+102,210100,Fisioterapis Madya  ,41,43,56,Kesehatan,Ahli,Fisioterapis,13,15,17,2,0
+103,210101,Fisioterapis Muda  ,33,34,56,Kesehatan,Ahli,Fisioterapis,11,12,17,2,0
+104,210102,Fisioterapis Pertama  ,31,32,56,Kesehatan,Ahli,Fisioterapis,9,10,17,2,0
+105,210200,Fisioterapis Penyelia  ,33,34,56,Kesehatan,Terampil,Fisioterapis,11,12,17,2,0
+106,210201,Fisioterapis Pelaksana Lanjutan  ,31,32,56,Kesehatan,Terampil,Fisioterapis,9,10,17,2,0
+107,210202,Fisioterapis Pelaksana  ,22,24,56,Kesehatan,Terampil,Fisioterapis,6,8,17,2,0
+108,211100,Nutrisionis Madya,41,43,56,Kesehatan,Ahli,Nutrisionis,13,15,18,2,0
+109,211101,Nutrisionis Muda,33,34,56,Kesehatan,Ahli,Nutrisionis,11,12,18,2,0
+110,211102,Nutrisionis Pertama,31,32,56,Kesehatan,Ahli,Nutrisionis,9,10,18,2,0
+111,211200,Nutrisionis Penyelia,33,34,56,Kesehatan,Terampil,Nutrisionis,11,12,18,2,0
+112,211201,Nutrisionis Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Nutrisionis,9,10,18,2,0
+113,211202,Nutrisionis Pelaksana  ,22,24,56,Kesehatan,Terampil,Nutrisionis,6,8,18,2,0
+114,212100,Penyuluh Kesmas Madya,41,43,56,Kesehatan,Ahli,Penyuluh Kesmas,13,15,19,2,0
+115,212101,Penyuluh Kesmas Muda ,33,34,56,Kesehatan,Ahli,Penyuluh Kesmas,11,12,19,2,0
+116,212102,Penyuluh Kesmas Pertama ,31,32,56,Kesehatan,Ahli,Penyuluh Kesmas,9,10,19,2,0
+117,212200,Penyuluh Kesmas Penyelia ,33,34,56,Kesehatan,Terampil,Penyuluh Kesmas,11,12,19,2,0
+118,212201,Penyuluh Kesmas Pelaksana Lanjutan ,31,32,56,Kesehatan,Terampil,Penyuluh Kesmas,9,10,19,2,0
+119,212202,Penyuluh Kesmas Pelaksana ,22,24,56,Kesehatan,Terampil,Penyuluh Kesmas,6,8,19,2,0
+120,213200,Perekam Medis Penyelia,33,34,56,Kesehatan,Terampil,Perekam Medis,11,12,20,2,0
+121,213201,Perekam Medis Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Perekam Medis,9,10,20,2,0
+122,213202,Perekam Medis Pelaksana,23,24,56,Kesehatan,Terampil,Perekam Medis,7,8,20,2,0
+123,214100,Pranata Lab. Kesehatan Madya,41,43,56,Kesehatan,Ahli,Pranata Laboratorium Kesehatan,13,15,21,2,0
+124,214101,Pranata Lab. Kesehatan Muda,33,34,56,Kesehatan,Ahli,Pranata Laboratorium Kesehatan,11,12,21,2,0
+125,214102,Pranata Lab. Kesehatan Pertama,31,32,56,Kesehatan,Ahli,Pranata Laboratorium Kesehatan,9,10,21,2,0
+126,214200,Pranata Lab. Kesehatan Penyelia,33,34,56,Kesehatan,Terampil,Pranata Laboratorium Kesehatan,11,12,21,2,0
+127,214201,Pranata Lab. Kesehatan Pel. Lanjutan,31,32,56,Kesehatan,Terampil,Pranata Laboratorium Kesehatan,9,10,21,2,0
+128,214202,Pranata Lab. Kesehatan Pelaksana,22,24,56,Kesehatan,Terampil,Pranata Laboratorium Kesehatan,6,8,21,2,0
+129,214203,Pranata Lab. Kesehatan Pel. Pemula,21,21,56,Kesehatan,Terampil,Pranata Laboratorium Kesehatan,5,5,21,2,0
+130,215200,Radiografer Penyelia,33,34,56,Kesehatan,Terampil,Radiografer,11,12,22,2,0
+131,215201,Radiografer Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Radiografer,9,10,22,2,0
+132,215202,Radiografer Pelaksana Lanjutan,23,24,56,Kesehatan,Terampil,Radiografer,7,8,22,2,0
+133,216100,Sanitarian Madya,41,43,56,Kesehatan,Ahli,Sanitarian,13,15,23,2,0
+134,216101,Sanitarian Muda,33,34,56,Kesehatan,Ahli,Sanitarian,11,12,23,2,0
+135,216102,Sanitarian Pertama,31,32,56,Kesehatan,Ahli,Sanitarian,9,10,23,2,0
+136,216200,Sanitarian Penyelia,33,34,56,Kesehatan,Terampil,Sanitarian,11,12,23,2,0
+137,216201,Sanitarian Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Sanitarian,9,10,23,2,0
+138,216202,Sanitarian Pelaksana  ,22,24,56,Kesehatan,Terampil,Sanitarian,6,8,23,2,0
+139,216203,Sanitarian Pelaksana Pemula,21,21,56,Kesehatan,Terampil,Sanitarian,5,5,23,2,0
+140,217200,Teknisi Elektro Medis Penyelia,33,34,56,Kesehatan,Terampil,Teknisi Elektro Medis,11,12,24,2,0
+141,217201,Teknisi Elektro Medis Pelaksana Lanjutan,31,32,56,Kesehatan,Terampil,Teknisi Elektro Medis,9,10,24,2,0
+142,217202,Teknisi Elektro Medis Pelaksana  ,23,24,56,Kesehatan,Terampil,Teknisi Elektro Medis,7,8,24,2,0
+143,301100,Medik Veteriner Utama ,44,45,60,Ilmu Hayat,Ahli,Medik Veteriner,16,17,25,3,0
+144,301101,Medik Veteriner Madya ,41,43,60,Ilmu Hayat,Ahli,Medik Veteriner,13,15,25,3,0
+145,301102,Medik Veteriner Muda,33,34,60,Ilmu Hayat,Ahli,Medik Veteriner,11,12,25,3,0
+146,301103,Medik Veteriner Pertama,32,32,60,Ilmu Hayat,Ahli,Medik Veteriner,10,10,25,3,0
+147,302200,Paramedik Veteriner Penyelia,33,34,56,Ilmu Hayat,Terampil,Paramedik Veteriner,11,12,26,3,0
+148,302201,Paramedik Veteriner Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Paramedik Veteriner,9,10,26,3,0
+149,302202,Paramedik Veteriner Pelaksana  ,22,24,56,Ilmu Hayat,Terampil,Paramedik Veteriner,6,8,26,3,0
+150,303100,Pengawas Benih Tanaman Madya ,41,43,56,Ilmu Hayat,Ahli,Pengawas Benih Tanaman,13,15,27,3,0
+151,303101,Pengawas Benih Tanaman Muda ,33,34,56,Ilmu Hayat,Ahli,Pengawas Benih Tanaman,11,12,27,3,0
+152,303102,Pengawas Benih Tanaman Pertama ,31,32,56,Ilmu Hayat,Ahli,Pengawas Benih Tanaman,9,10,27,3,0
+153,303200,Pengawas Benih Tanaman Penyelia,33,34,56,Ilmu Hayat,Terampil,Pengawas Benih Tanaman,11,12,27,3,0
+154,303201,Pengawas Benih Tanaman Pelaksana Lanjutan ,31,32,56,Ilmu Hayat,Terampil,Pengawas Benih Tanaman,9,10,27,3,0
+155,303202,Pengawas Benih Tanaman Pelaksana ,22,24,56,Ilmu Hayat,Terampil,Pengawas Benih Tanaman,6,8,27,3,0
+156,304100,Pengawas Bibit Ternak Madya,41,43,56,Ilmu Hayat,Ahli,Pengawas Bibit Ternak,13,15,28,3,0
+157,304101,Pengawas Bibit Ternak Muda,33,34,56,Ilmu Hayat,Ahli,Pengawas Bibit Ternak,11,12,28,3,0
+158,304102,Pengawas Bibit Ternak Pertama,31,32,56,Ilmu Hayat,Ahli,Pengawas Bibit Ternak,9,10,28,3,0
+159,304200,Pengawas Bibit Ternak Penyelia,33,34,56,Ilmu Hayat,Terampil,Pengawas Bibit Ternak,11,12,28,3,0
+160,304201,Pengawas Bibit Ternak Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Pengawas Bibit Ternak,9,10,28,3,0
+161,304202,Pengawas Bibit Ternak Pelaksana  ,22,24,56,Ilmu Hayat,Terampil,Pengawas Bibit Ternak,6,8,28,3,0
+162,305100,Pengawas Mutu Pakan Madya,41,43,56,Ilmu Hayat,Ahli,Pengawas Mutu Pakan,13,15,29,3,0
+163,305101,Pengawas Mutu Pakan Muda,33,34,56,Ilmu Hayat,Ahli,Pengawas Mutu Pakan,11,12,29,3,0
+164,305102,Pengawas Mutu Pakan Pertama,31,32,56,Ilmu Hayat,Ahli,Pengawas Mutu Pakan,9,10,29,3,0
+165,305200,Pengawas Mutu Pakan Penyelia,33,34,56,Ilmu Hayat,Terampil,Pengawas Mutu Pakan,11,12,29,3,0
+166,305201,Pengawas Mutu Pakan Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Pengawas Mutu Pakan,9,10,29,3,0
+167,305202,Pengawas Mutu Pakan Pelaksana   ,22,24,56,Ilmu Hayat,Terampil,Pengawas Mutu Pakan,6,8,29,3,0
+168,306100,Pengendali Organisme Pengganggu Tumbuhan Madya ,41,43,56,Ilmu Hayat,Ahli,Pengendali Organisme Pengganggu Tumbuhan,13,15,30,3,0
+169,306101,Pengendali Organisme Pengganggu Tumbuhan Muda ,33,34,56,Ilmu Hayat,Ahli,Pengendali Organisme Pengganggu Tumbuhan,11,12,30,3,0
+170,306102,Pengendali Organisme Pengganggu Tumbuhan Pertama,31,32,56,Ilmu Hayat,Ahli,Pengendali Organisme Pengganggu Tumbuhan,9,10,30,3,0
+171,306200,Pengendali Organisme Pengganggu Tumbuhan Penyelia ,33,34,56,Ilmu Hayat,Terampil,Pengendali Organisme Pengganggu Tumbuhan,11,12,30,3,0
+172,306201,Pengendali Organisme Pengganggu Tumbuhan Pelaksana Lanjutan ,31,32,56,Ilmu Hayat,Terampil,Pengendali Organisme Pengganggu Tumbuhan,9,10,30,3,0
+173,306202,Pengendali Organisme Pengganggu Tumbuhan Pelaksana ,22,24,56,Ilmu Hayat,Terampil,Pengendali Organisme Pengganggu Tumbuhan,6,8,30,3,0
+174,307100,Penyuluh Pertanian Utama,44,45,60,Ilmu Hayat,Ahli,Penyuluh Pertanian,16,17,31,3,0
+175,307101,Penyuluh Pertanian Madya,41,43,60,Ilmu Hayat,Ahli,Penyuluh Pertanian,13,15,31,3,0
+176,307102,Penyuluh Pertanian Muda,33,34,60,Ilmu Hayat,Ahli,Penyuluh Pertanian,11,12,31,3,0
+177,307103,Penyuluh Pertanian Pertama,31,32,56,Ilmu Hayat,Ahli,Penyuluh Pertanian,9,10,31,3,0
+178,307200,Penyuluh Pertanian Penyelia,33,34,60,Ilmu Hayat,Terampil,Penyuluh Pertanian,11,12,31,3,0
+179,307201,Penyuluh Pertanian Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Penyuluh Pertanian,9,10,31,3,0
+180,307202,Penyuluh Pertanian Pelaksana  ,22,24,56,Ilmu Hayat,Terampil,Penyuluh Pertanian,6,8,31,3,0
+181,308100,Pengawas Benih Ikan Utama,44,45,56,Ilmu Hayat,Ahli,Pengawas Benih Ikan,16,17,32,3,0
+182,308101,Pengawas Benih Ikan Madya,41,43,56,Ilmu Hayat,Ahli,Pengawas Benih Ikan,13,15,32,3,0
+183,308102,Pengawas Benih Ikan Muda,33,34,56,Ilmu Hayat,Ahli,Pengawas Benih Ikan,11,12,32,3,0
+184,308103,Pengawas Benih Ikan Pertama,31,32,56,Ilmu Hayat,Ahli,Pengawas Benih Ikan,9,10,32,3,0
+185,308200,Pengawas Benih Ikan Penyelia,33,34,56,Ilmu Hayat,Terampil,Pengawas Benih Ikan,11,12,32,3,0
+186,308201,Pengawas Benih Ikan Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Pengawas Benih Ikan,9,10,32,3,0
+187,308202,Pengawas Benih Ikan Pelaksana  ,22,24,56,Ilmu Hayat,Terampil,Pengawas Benih Ikan,6,8,32,3,0
+188,309100,Pengawas Perikanan Utama,44,45,56,Ilmu Hayat,Ahli,Pengawas Perikanan,16,17,33,3,0
+189,309101,Pengawas Perikanan Madya,41,43,56,Ilmu Hayat,Ahli,Pengawas Perikanan,13,15,33,3,0
+190,309102,Pengawas Perikanan Muda,33,34,56,Ilmu Hayat,Ahli,Pengawas Perikanan,11,12,33,3,0
+191,309103,Pengawas Perikanan Pertama,31,32,56,Ilmu Hayat,Ahli,Pengawas Perikanan,9,10,33,3,0
+192,309200,Pengawas Perikanan Penyelia,33,34,56,Ilmu Hayat,Terampil,Pengawas Perikanan,11,12,33,3,0
+193,309201,Pengawas Perikanan Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Pengawas Perikanan,9,10,33,3,0
+194,309202,Pengawas Perikanan Pelaksana  ,22,24,56,Ilmu Hayat,Terampil,Pengawas Perikanan,6,8,33,3,0
+195,310100,Pengendali Hama & Penyakit Ikan Madya ,41,43,56,Ilmu Hayat,Ahli,Pengendali Hama & Penyakit Ikan,13,15,34,3,0
+196,310101,Pengendali Hama & Penyakit Ikan Muda ,33,34,56,Ilmu Hayat,Ahli,Pengendali Hama & Penyakit Ikan,11,12,34,3,0
+197,310102,Pengendali Hama & Penyakit Ikan Pertama ,31,32,56,Ilmu Hayat,Ahli,Pengendali Hama & Penyakit Ikan,9,10,34,3,0
+198,310200,Pengendali Hama & Penyakit Ikan Penyelia ,33,34,56,Ilmu Hayat,Terampil,Pengendali Hama & Penyakit Ikan,11,12,34,3,0
+199,310201,Pengendali Hama & Penyakit Ikan Pelaksana Lanjutan ,31,32,56,Ilmu Hayat,Terampil,Pengendali Hama & Penyakit Ikan,9,10,34,3,0
+200,310202,Pengendali Hama & Penyakit Ikan Pelaksana ,22,24,56,Ilmu Hayat,Terampil,Pengendali Hama & Penyakit Ikan,6,8,34,3,0
+201,311100,Pengendali Ekosistem Hutan Madya,41,43,56,Ilmu Hayat,Ahli,Pengendali Ekosistem Hutan,13,15,35,3,0
+202,311101,Pengendali Ekosistem Hutan Muda,33,34,56,Ilmu Hayat,Ahli,Pengendali Ekosistem Hutan,11,12,35,3,0
+203,311102,Pengendali Ekosistem Hutan Pertama,31,32,56,Ilmu Hayat,Ahli,Pengendali Ekosistem Hutan,9,10,35,3,0
+204,311200,Pengendali Ekosistem Hutan Penyelia,33,34,56,Ilmu Hayat,Terampil,Pengendali Ekosistem Hutan,11,12,35,3,0
+205,311201,Pengendali Ekosistem Hutan Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Pengendali Ekosistem Hutan,9,10,35,3,0
+206,311202,Pengendali Ekosistem Hutan Pelaksana    ,22,24,56,Ilmu Hayat,Terampil,Pengendali Ekosistem Hutan,6,8,35,3,0
+207,312100,Penyuluh Kehutanan Madya,41,43,56,Ilmu Hayat,Ahli,Penyuluh Kehutanan,13,15,36,3,0
+208,312101,Penyuluh Kehutanan Muda,33,34,56,Ilmu Hayat,Ahli,Penyuluh Kehutanan,11,11,36,3,3
+209,312102,Penyuluh Kehutanan Pertama,31,32,56,Ilmu Hayat,Ahli,Penyuluh Kehutanan,9,10,36,3,0
+210,312200,Penyuluh Kehutanan Penyelia,33,34,56,Ilmu Hayat,Terampil,Penyuluh Kehutanan,11,12,36,3,0
+211,312201,Penyuluh Kehutanan Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Penyuluh Kehutanan,9,10,36,3,0
+212,312202,Penyuluh Kehutanan Pelaksana   ,22,24,56,Ilmu Hayat,Terampil,Penyuluh Kehutanan,6,8,36,3,0
+213,313100,Pengendali Dampak Lingkungan Madya,41,43,56,Ilmu Hayat,Ahli,Pengendali Dampak Lingkungan,13,15,37,3,0
+214,313101,Pengendali Dampak Lingkungan Muda,33,34,56,Ilmu Hayat,Ahli,Pengendali Dampak Lingkungan,11,12,37,3,0
+215,313102,Pengendali Dampak Lingkungan Pertama,31,32,56,Ilmu Hayat,Ahli,Pengendali Dampak Lingkungan,9,10,37,3,0
+216,313200,Pengendali Dampak Lingkungan Penyelia,33,34,56,Ilmu Hayat,Terampil,Pengendali Dampak Lingkungan,11,12,37,3,0
+217,313201,Pengendali Dampak Lingkungan Pelaksana Lanjutan,31,32,56,Ilmu Hayat,Terampil,Pengendali Dampak Lingkungan,9,10,37,3,0
+218,313202,Pengendali Dampak Lingkungan Pelaksana  ,22,24,56,Ilmu Hayat,Terampil,Pengendali Dampak Lingkungan,6,8,37,3,0
+219,401100,Pamong Budaya Madya,41,43,56,Penerangan dan Seni Budaya,Ahli,Pamong Budaya,13,15,38,4,0
+220,401101,Pamong Budaya Muda,33,34,56,Penerangan dan Seni Budaya,Ahli,Pamong Budaya,11,12,38,4,0
+221,401102,Pamong Budaya Pertama,31,32,56,Penerangan dan Seni Budaya,Ahli,Pamong Budaya,9,10,38,4,0
+222,401200,Pamong Budaya Penyelia,33,34,56,Penerangan dan Seni Budaya,Terampil,Pamong Budaya,11,12,38,4,0
+223,401201,Pamong Budaya Pelaksana Lanjutan,31,32,56,Penerangan dan Seni Budaya,Terampil,Pamong Budaya,9,10,38,4,0
+224,401202,Pamong Budaya Pelaksana,22,24,56,Penerangan dan Seni Budaya,Terampil,Pamong Budaya,6,8,38,4,0
+225,,Pengawas Lapangan,,,56,,,,0,0,0,0,3
+226,,KASUBID PENGOLAHAN DATA,,,0,,,,0,0,0,0,2
+227,402102,GURU MADYA TK I,41,41,56,Penerangan dan Seni Budaya,Ahli,Adikara Siaran,13,13,0,2,3
+228,,KAUBID DATA DAN INFORMASI PEGAWAI,,,0,,,,0,0,0,0,2
+229,402104,GURU SD D 2,33,33,56,Penerangan dan Seni Budaya,Terampil,Adikara Siaran,11,11,4,0,3
+230,,KASUBID KEPANGKATAN DAN PENSIUN,,,0,,,,0,0,0,0,2
+236,403100,GURU S I,43,43,56,Penerangan dan Seni Budaya,Ahli,Andalan Siaran,15,15,1,4,3
+237,403101,GURU DEWASA TK I,42,42,56,Penerangan dan Seni Budaya,Ahli,Andalan Siaran,5,5,4,0,3
+245,403109,GURU PEMBINA TK I,22,22,56,Penerangan dan Seni Budaya,Terampil,Andalan Siaran,6,6,0,4,3
+247,404100,Teknisi Siaran Utama Muda,43,43,56,Penerangan dan Seni Budaya,Ahli,Teknisi Siaran,15,15,40,4,0
+248,404101,Teknisi Siaran Utama Pratama,42,42,56,Penerangan dan Seni Budaya,Ahli,Teknisi Siaran,14,14,40,4,0
+249,404102,Teknisi Siaran Madya,41,41,56,Penerangan dan Seni Budaya,Ahli,Teknisi Siaran,13,13,40,4,0
+250,404103,Teknisi Siaran Muda,34,34,56,Penerangan dan Seni Budaya,Ahli,Teknisi Siaran,12,12,40,4,0
+251,404104,Teknisi Siaran Pratama,33,33,56,Penerangan dan Seni Budaya,Ahli,Teknisi Siaran,11,11,40,4,0
+258,405100,Pranata Humas Madya,41,43,56,Penerangan dan Seni Budaya,Ahli,Pranata Humas,13,15,41,4,0
+259,405101,Pranata Humas Muda,33,34,56,Penerangan dan Seni Budaya,Ahli,Pranata Humas,11,12,41,4,0
+260,405102,Pranata Humas Pertama,31,32,56,Penerangan dan Seni Budaya,Ahli,Pranata Humas,9,10,41,4,0
+261,405200,Pranata Humas Penyelia,33,34,56,Penerangan dan Seni Budaya,Terampil,Pranata Humas,11,12,41,4,0
+262,405201,Pranata Humas Pelaksana Lanjutan,31,32,56,Penerangan dan Seni Budaya,Terampil,Pranata Humas,9,10,41,4,0
+263,405202,Pranata Humas Pelaksana  ,22,24,56,Penerangan dan Seni Budaya,Terampil,Pranata Humas,6,8,41,4,0
+264,405203,Pranata Humas Pelaksana Pemula,21,21,56,Penerangan dan Seni Budaya,Terampil,Pranata Humas,5,5,41,4,0
+265,501100,Penyuluh Perindag Madya,41,43,56,Ilmu Sosial yang berkaitan,Ahli,Penyuluh Perindag,13,15,42,5,0
+266,501101,Penyuluh Perindag Muda,33,34,56,Ilmu Sosial yang berkaitan,Ahli,Penyuluh Perindag,11,12,42,5,0
+267,501102,Penyuluh Perindag Pertama,31,32,56,Ilmu Sosial yang berkaitan,Ahli,Penyuluh Perindag,9,10,42,5,0
+268,501200,Penyuluh Perindag Penyelia,33,34,56,Ilmu Sosial yang berkaitan,Terampil,Penyuluh Perindag,11,12,42,5,0
+269,501201,Penyuluh Perindag Pelaksana Lanjutan,31,32,56,Ilmu Sosial yang berkaitan,Terampil,Penyuluh Perindag,9,10,42,5,0
+270,501202,Penyuluh Perindag Pelaksana  ,22,24,56,Ilmu Sosial yang berkaitan,Terampil,Penyuluh Perindag,6,8,42,5,0
+271,502100,Pengantar Kerja Madya,41,43,56,Ilmu Sosial yang berkaitan,Ahli,Pengantar Kerja,13,15,43,5,0
+272,502101,Pengantar Kerja Muda,33,34,56,Ilmu Sosial yang berkaitan,Ahli,Pengantar Kerja,11,12,43,5,0
+273,502102,Pengantar Kerja Pertama,31,32,56,Ilmu Sosial yang berkaitan,Ahli,Pengantar Kerja,9,10,43,5,0
+274,502200,Pengantar Kerja Penyelia,33,34,56,Ilmu Sosial yang berkaitan,Terampil,Pengantar Kerja,11,12,43,5,0
+275,502201,Pengantar Kerja Pelaksana Lanjutan,31,32,56,Ilmu Sosial yang berkaitan,Terampil,Pengantar Kerja,9,10,43,5,0
+276,502202,Pengantar Kerja Pelaksana,22,24,56,Ilmu Sosial yang berkaitan,Terampil,Pengantar Kerja,6,8,43,5,0
+277,503100,Penggerak Swadaya Masyarakat Madya ,41,43,56,Ilmu Sosial yang berkaitan,Ahli,Penggerak Swadaya Masyarakat,13,15,44,5,0
+278,503101,Penggerak Swadaya Masyarakat Muda ,33,34,56,Ilmu Sosial yang berkaitan,Ahli,Penggerak Swadaya Masyarakat,11,12,44,5,0
+279,503102,Penggerak Swadaya Masyarakat Pertama ,31,32,56,Ilmu Sosial yang berkaitan,Ahli,Penggerak Swadaya Masyarakat,9,10,44,5,0
+280,503200,Penggerak Swadaya Masyarakat Penyelia ,33,34,56,Ilmu Sosial yang berkaitan,Terampil,Penggerak Swadaya Masyarakat,11,12,44,5,0
+281,503201,Penggerak Swadaya Masyarakat Pelaksana Lanjutan ,31,32,56,Ilmu Sosial yang berkaitan,Terampil,Penggerak Swadaya Masyarakat,9,10,44,5,0
+282,503202,Penggerak Swadaya Masyarakat Pelaksana ,22,24,56,Ilmu Sosial yang berkaitan,Terampil,Penggerak Swadaya Masyarakat,6,8,44,5,0
+283,503203,Penggerak Swadaya Masyarakat Pelaksana Pemula ,21,21,56,Ilmu Sosial yang berkaitan,Terampil,Penggerak Swadaya Masyarakat,5,5,44,5,0
+284,504100,Pekerja Sosial Madya,41,43,56,Ilmu Sosial yang berkaitan,Ahli,Pekerja Sosial,13,15,45,5,0
+285,504101,Pekerja Sosial Muda,33,34,56,Ilmu Sosial yang berkaitan,Ahli,Pekerja Sosial,11,12,45,5,0
+286,504102,Pekerja Sosial Pertama,31,32,56,Ilmu Sosial yang berkaitan,Ahli,Pekerja Sosial,9,10,45,5,0
+287,504200,Pekerja Sosial Penyelia,33,34,56,Ilmu Sosial yang berkaitan,Terampil,Pekerja Sosial,11,12,45,5,0
+288,504201,Pekerja Sosial Pelaksana Lanjutan,31,32,56,Ilmu Sosial yang berkaitan,Terampil,Pekerja Sosial,9,10,45,5,0
+289,504202,Pekerja Sosial Pelaksana   ,22,24,56,Ilmu Sosial yang berkaitan,Terampil,Pekerja Sosial,6,8,45,5,0
+290,504203,Pekerja Sosial Pelaksana Pemula,21,21,56,Ilmu Sosial yang berkaitan,Terampil,Pekerja Sosial,5,5,45,5,0
+291,505100,Penyuluh KB Utama,44,45,56,Ilmu Sosial yang berkaitan,Ahli,Penyuluh KB,16,17,46,5,0
+292,505101,Penyuluh KB Madya,41,43,56,Ilmu Sosial yang berkaitan,Ahli,Penyuluh KB,13,15,46,5,0
+293,505102,Penyuluh KB Muda,33,34,56,Ilmu Sosial yang berkaitan,Ahli,Penyuluh KB,11,12,46,5,0
+294,505103,Penyuluh KB Pertama,31,32,56,Ilmu Sosial yang berkaitan,Ahli,Penyuluh KB,9,10,46,5,0
+295,505200,Penyuluh KB Penyelia,33,34,56,Ilmu Sosial yang berkaitan,Terampil,Penyuluh KB,11,12,46,5,0
+296,505201,Penyuluh KB Pelaksana Lanjutan,31,32,56,Ilmu Sosial yang berkaitan,Terampil,Penyuluh KB,9,10,46,5,0
+297,505202,Penyuluh KB Pelaksana  ,22,24,56,Ilmu Sosial yang berkaitan,Terampil,Penyuluh KB,6,8,46,5,0
+298,601100,Pengawas Farmasi & Makanan Utama,44,45,56,Pengawas kualitas dan keamanan,Ahli,Pengawas Farmasi & Makanan,16,17,47,6,0
+299,601101,Pengawas Farmasi & Makanan Madya,41,43,56,Pengawas kualitas dan keamanan,Ahli,Pengawas Farmasi & Makanan,13,15,47,6,0
+300,601102,Pengawas Farmasi & Makanan Muda,33,34,56,Pengawas kualitas dan keamanan,Ahli,Pengawas Farmasi & Makanan,11,12,47,6,0
+301,601103,Pengawas Farmasi & Makanan Pertama,31,32,56,Pengawas kualitas dan keamanan,Ahli,Pengawas Farmasi & Makanan,9,10,47,6,0
+302,601200,Pengawas Farmasi & Makanan Penyelia,33,34,56,Pengawas kualitas dan keamanan,Terampil,Pengawas Farmasi & Makanan,11,12,47,6,0
+303,601201,Pengawas Farmasi & Makanan Pelaksana Lanjutan,31,32,56,Pengawas kualitas dan keamanan,Terampil,Pengawas Farmasi & Makanan,9,10,47,6,0
+304,601202,Pengawas Farmasi & Makanan Pelaksana   ,22,24,56,Pengawas kualitas dan keamanan,Terampil,Pengawas Farmasi & Makanan,6,8,47,6,0
+305,602100,Penguji Mutu Barang Madya,41,43,56,Pengawas kualitas dan keamanan,Ahli,Penguji Mutu Barang,13,15,48,6,0
+306,602101,Penguji Mutu Barang Muda,33,34,56,Pengawas kualitas dan keamanan,Ahli,Penguji Mutu Barang,11,12,48,6,0
+307,602102,Penguji Mutu Barang Pertama,31,32,56,Pengawas kualitas dan keamanan,Ahli,Penguji Mutu Barang,9,10,48,6,0
+308,602200,Penguji Mutu Barang Penyelia,33,34,56,Pengawas kualitas dan keamanan,Terampil,Penguji Mutu Barang,11,12,48,6,0
+309,602201,Penguji Mutu Barang Pelaksana Lanjutan,31,32,56,Pengawas kualitas dan keamanan,Terampil,Penguji Mutu Barang,9,10,48,6,0
+310,602202,Penguji Mutu Barang Pelaksana  ,22,24,56,Pengawas kualitas dan keamanan,Terampil,Penguji Mutu Barang,6,8,48,6,0
+311,603100,Penera Madya,41,43,56,Pengawas kualitas dan keamanan,Ahli,Penera,13,15,49,6,0
+312,603101,Penera Muda,33,34,56,Pengawas kualitas dan keamanan,Ahli,Penera,11,12,49,6,0
+313,603102,Penera Pertama,31,32,56,Pengawas kualitas dan keamanan,Ahli,Penera,9,10,49,6,0
+314,603200,Penera Penyelia,33,34,56,Pengawas kualitas dan keamanan,Terampil,Penera,11,12,49,6,0
+315,603201,Penera Pelaksana Lanjutan,31,32,56,Pengawas kualitas dan keamanan,Terampil,Penera,9,10,49,6,0
+316,603202,Penera Pelaksana,22,24,56,Pengawas kualitas dan keamanan,Terampil,Penera,6,8,49,6,0
+317,604100,Inspektur Ketenagalistrikan Madya  ,41,43,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Ketenagalistrikan,13,15,50,6,0
+318,604101,Inspektur Ketenagalistrikan Muda  ,33,34,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Ketenagalistrikan,11,12,50,6,0
+319,604102,Inspektur Ketenagalistrikan Pertama  ,31,32,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Ketenagalistrikan,9,10,50,6,0
+320,605100,Inspektur Minyak & Gas Madya,41,43,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Minyak & Gas,13,15,51,6,0
+321,605101,Inspektur Minyak & Gas Muda,33,34,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Minyak & Gas,11,12,51,6,0
+322,605102,Inspektur Minyak & Gas Pertama,31,32,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Minyak & Gas,9,10,51,6,0
+323,606100,Inspektur Tambang Madya,41,43,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Tambang,13,15,52,6,0
+324,606101,Inspektur Tambang Muda,33,34,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Tambang,11,12,52,6,0
+325,606102,Inspektur Tambang Pertama,31,32,56,Pengawas kualitas dan keamanan,Ahli,Inspektur Tambang,9,10,52,6,0
+327,607201,Penguji Kendaraan Bermotor Pelaksana Lanjutan,31,32,56,Pengawas kualitas dan keamanan,Terampil,Penguji Kendaraan Bermotor,9,10,53,6,0
+328,607202,Penguji Kendaraan Bermotor Pelaksana,22,24,56,Pengawas kualitas dan keamanan,Terampil,Penguji Kendaraan Bermotor,6,8,53,6,0
+329,607203,Penguji Kendaraan Bermotor Pelaksana Pemula,21,21,56,Pengawas kualitas dan keamanan,Terampil,Penguji Kendaraan Bermotor,5,5,53,6,0
+330,608100,Pengawas Ketenagakerjaan Madya,41,43,56,Pengawas kualitas dan keamanan,Ahli,Pengawas Ketenagakerjaan,13,15,54,6,0
+331,608101,Pengawas Ketenagakerjaan Muda,33,34,56,Pengawas kualitas dan keamanan,Ahli,Pengawas Ketenagakerjaan,11,12,54,6,0
+332,608102,Pengawas Ketenagakerjaan Pertama,21,22,56,Pengawas kualitas dan keamanan,Ahli,Pengawas Ketenagakerjaan,5,6,54,6,0
+333,608200,Pengawas Ketenagakerjaan Penyelia,33,34,56,Pengawas kualitas dan keamanan,Terampil,Pengawas Ketenagakerjaan,11,12,54,6,0
+334,608201,Pengawas Ketenagakerjaan Pel. Lanjutan,31,32,56,Pengawas kualitas dan keamanan,Terampil,Pengawas Ketenagakerjaan,9,10,54,6,0
+335,608202,Pengawas Ketenagakerjaan Pelaksana,22,24,56,Pengawas kualitas dan keamanan,Terampil,Pengawas Ketenagakerjaan,6,8,54,6,0
+336,701100,Penyelidik Bumi Utama,44,45,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Penyelidik Bumi,16,17,55,7,0
+337,701101,Penyelidik Bumi Madya,41,43,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Penyelidik Bumi,13,15,55,7,0
+338,701102,Penyelidik Bumi Muda,33,34,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Penyelidik Bumi,11,12,55,7,0
+339,701103,Penyelidik Bumi Pertama,31,32,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Penyelidik Bumi,9,10,55,7,0
+340,702100,Teknik Jalan & Jembatan Utama,44,45,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Teknik Jalan & Jembatan,16,17,56,7,0
+341,702101,Teknik Jalan & Jembatan Madya,41,43,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Teknik Jalan & Jembatan,13,15,56,7,0
+342,702102,Teknik Jalan & Jembatan Muda,33,34,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Teknik Jalan & Jembatan,11,12,56,7,0
+343,702103,Teknik Jalan & Jembatan Pertama,31,32,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Teknik Jalan & Jembatan,9,10,56,7,0
+344,702200,Teknik Jalan & Jembatan Penyelia,33,34,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Teknik Jalan & Jembatan,11,12,56,7,0
+345,702201,Teknik Jalan & Jembatan Pelaksana Lanjutan,31,32,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Teknik Jalan & Jembatan,9,10,56,7,0
+346,702202,Teknik Jalan & Jembatan Pelaksana  ,22,24,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Teknik Jalan & Jembatan,6,8,56,7,0
+347,703100,Teknik Tata Bangunan & Perumahan Utama,44,45,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Teknik Tata Bangunan & Perumahan,16,17,57,7,0
+348,703101,Teknik Tata Bangunan & Perumahan Madya,41,43,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Teknik Tata Bangunan & Perumahan,13,15,57,7,0
+349,703102,Teknik Tata Bangunan & Perumahan Muda ,33,34,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Teknik Tata Bangunan & Perumahan,11,12,57,7,0
+350,703103,Teknik Tata Bangunan & Perumahan Pertama,31,32,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Teknik Tata Bangunan & Perumahan,9,10,57,7,0
+351,703200,Teknik Tata Bangunan & Perumahan Penyelia,33,34,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Teknik Tata Bangunan & Perumahan,11,12,57,7,0
+352,703201,Teknik Tata Bangunan & Perumahan Pelaksana Lanjutan,31,32,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Teknik Tata Bangunan & Perumahan,9,10,57,7,0
+353,703202,Teknik Tata Bangunan & Perumahan Pelaksana  ,22,24,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Teknik Tata Bangunan & Perumahan,6,8,57,7,0
+354,704100,Surveyor Pemetaan Madya,41,43,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Surveyor Pemetaan,13,15,58,7,0
+355,704101,Surveyor Pemetaan Muda,33,34,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Surveyor Pemetaan,11,12,58,7,0
+356,704102,PENJAGA SD,31,32,56,"Arsitek, Insinyur dan yang berkaitan",Ahli,Surveyor Pemetaan,1,5,7,0,3
+357,704200,Surveyor Pemetaan Penyelia,33,34,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Surveyor Pemetaan,11,12,58,7,0
+358,704201,Surveyor Pemetaan Pelaksana Lanjutan,31,32,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Surveyor Pemetaan,9,10,58,7,0
+359,704202,Surveyor Pemetaan Pelaksana  ,22,24,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Surveyor Pemetaan,6,8,58,7,0
+360,704203,Surveyor Pemetaan Pelaksana Pemula,21,21,56,"Arsitek, Insinyur dan yang berkaitan",Terampil,Surveyor Pemetaan,5,5,58,7,0
+361,801100,Pengamat Meteorologi & Geofisika Madya,41,43,56,"Fisika, Kimia dan yang berkaitan",Ahli,Pengamat Meteorologi & Geofisika,13,15,59,8,0
+362,801101,Pengamat Meteorologi & Geofisika Muda,33,34,56,"Fisika, Kimia dan yang berkaitan",Ahli,Pengamat Meteorologi & Geofisika,11,12,59,8,0
+363,801102,Pengamat Meteorologi & Geofisika Pertama,31,32,56,"Fisika, Kimia dan yang berkaitan",Ahli,Pengamat Meteorologi & Geofisika,9,10,59,8,0
+364,801200,Pengamat Meteorologi & Geofisika Penyelia,33,34,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengamat Meteorologi & Geofisika,11,12,59,8,0
+365,801201,Pengamat Meteorologi & Geofisika Pelaksana Lanjutan,31,32,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengamat Meteorologi & Geofisika,9,10,59,8,0
+366,801202,Pengamat Meteorologi & Geofisika Pelaksana   ,22,24,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengamat Meteorologi & Geofisika,6,8,59,8,0
+367,802200,Pengamat Gunung Api Penyelia,33,34,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengamat Gunung Api,11,12,60,8,0
+368,802201,Pengamat Gunung Api Pelaksana Lanjutan,31,32,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengamat Gunung Api,9,10,60,8,0
+369,802202,Pengamat Gunung Api Pelaksana  ,22,24,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengamat Gunung Api,6,8,60,8,0
+370,802203,Pengamat Gunung Api Pelaksana Pemula,21,21,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengamat Gunung Api,5,5,60,8,0
+371,803100,Pranata Nuklir Utama,44,45,65,"Fisika, Kimia dan yang berkaitan",Ahli,Pranata Nuklir,16,17,61,8,0
+372,803101,Pranata Nuklir Madya,41,43,60,"Fisika, Kimia dan yang berkaitan",Ahli,Pranata Nuklir,13,15,61,8,0
+373,803102,Pranata Nuklir Muda,33,34,60,"Fisika, Kimia dan yang berkaitan",Ahli,Pranata Nuklir,11,12,61,8,0
+374,803103,Pranata Nuklir Pertama,31,32,56,"Fisika, Kimia dan yang berkaitan",Ahli,Pranata Nuklir,9,10,61,8,0
+375,803200,Pranata Nuklir Penyelia,33,34,60,"Fisika, Kimia dan yang berkaitan",Terampil,Pranata Nuklir,11,12,61,8,0
+376,803201,Pranata Nuklir Pelaksana Lanjutan,31,32,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pranata Nuklir,9,10,61,8,0
+377,803202,Pranata Nuklir Pelaksana  ,22,24,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pranata Nuklir,6,8,61,8,0
+378,803203,Pranata Nuklir Pelaksana Pemula,21,21,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pranata Nuklir,5,5,61,8,0
+379,804100,Pengawas Radiasi Utama,44,45,65,"Fisika, Kimia dan yang berkaitan",Ahli,Pengawas Radiasi,16,17,62,8,0
+380,804101,Pengawas Radiasi Madya,41,43,60,"Fisika, Kimia dan yang berkaitan",Ahli,Pengawas Radiasi,13,15,62,8,0
+381,804102,Pengawas Radiasi Muda,33,34,60,"Fisika, Kimia dan yang berkaitan",Ahli,Pengawas Radiasi,11,12,62,8,0
+382,804103,Pengawas Radiasi Pertama,31,32,56,"Fisika, Kimia dan yang berkaitan",Ahli,Pengawas Radiasi,9,10,62,8,0
+383,804200,Pengawas Radiasi Penyelia,33,34,60,"Fisika, Kimia dan yang berkaitan",Terampil,Pengawas Radiasi,11,12,62,8,0
+384,804201,Pengawas Radiasi Pelaksana Lanjutan,31,32,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengawas Radiasi,9,10,62,8,0
+385,804202,Pengawas Radiasi Pelaksana  ,22,24,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengawas Radiasi,6,8,62,8,0
+386,804203,Pengawas Radiasi Pelaksana Pemula  ,21,21,56,"Fisika, Kimia dan yang berkaitan",Terampil,Pengawas Radiasi,5,5,62,8,0
+387,901100,Pemeriksa Bea & Cukai Madya,41,43,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Pemeriksa Bea & Cukai,13,15,63,9,0
+388,901101,Pemeriksa Bea & Cuka Mudai,33,34,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Pemeriksa Bea & Cukai,11,12,63,9,0
+389,901102,Pemeriksa Bea & Cukai Pertama,31,32,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Pemeriksa Bea & Cukai,9,10,63,9,0
+390,901200,Pemeriksa Bea & Cukai Penyelia,33,34,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Pemeriksa Bea & Cukai,11,12,63,9,0
+391,901201,Pemeriksa Bea & Cukai Pelaksana Lanjutan,31,32,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Pemeriksa Bea & Cukai,9,10,63,9,0
+392,901202,Pemeriksa Bea & Cukai Pelaksana   ,22,24,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Pemeriksa Bea & Cukai,6,8,63,9,0
+393,902100,Pemeriksa Pajak Madya,41,43,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Pemeriksa Pajak,13,15,64,9,0
+394,902101,Pemeriksa Pajak Muda,33,34,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Pemeriksa Pajak,11,12,64,9,0
+395,902102,Pemeriksa Pajak Pertama,31,32,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Pemeriksa Pajak,9,10,64,9,0
+396,902200,Pemeriksa Pajak Penyelia,33,34,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Pemeriksa Pajak,11,12,64,9,0
+397,902201,Pemeriksa Pajak Pelaksana Lanjutan,31,32,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Pemeriksa Pajak,9,10,64,9,0
+398,902202,Pemeriksa Pajak Pelaksana  ,22,24,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Pemeriksa Pajak,6,8,64,9,0
+399,903100,Penilai PBB Madya,41,43,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Penilai PBB,13,15,65,9,0
+400,903101,Penilai PBB Muda,33,34,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Penilai PBB,11,12,65,9,0
+401,903102,Penilai PBB Pertama,31,32,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Ahli,Penilai PBB,9,10,65,9,0
+402,903200,Penilai PBB Penyelia,33,34,60,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Penilai PBB,11,12,65,9,0
+403,903201,Penilai PBB Pelaksana Lanjutan,31,32,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Penilai PBB,9,10,65,9,0
+404,903202,Penilai PBB Pelaksana,22,24,56,Imigrasi Pajak dan Ass Prof yang berkaitan,Terampil,Penilai PBB,6,8,65,9,0
+412,1002100,Pustakawan Utama,44,45,65,"Arsiparis, Pustakawan dan yang berkaitan",Ahli,Pustakawan,16,17,67,10,0
+413,1002101,Pustakawan Madya,41,43,60,"Arsiparis, Pustakawan dan yang berkaitan",Ahli,Pustakawan,13,15,67,10,0
+414,1002102,Pustakawan Muda,33,34,60,"Arsiparis, Pustakawan dan yang berkaitan",Ahli,Pustakawan,11,12,67,10,0
+415,1002103,Pustakawan Pertama,31,32,56,"Arsiparis, Pustakawan dan yang berkaitan",Ahli,Pustakawan,9,10,67,10,0
+416,1002200,Pustakawan Penyelia,33,34,60,"Arsiparis, Pustakawan dan yang berkaitan",Terampil,Pustakawan,11,12,67,10,0
+417,1002201,Pustakawan Pelaksana Lanjutan,31,32,56,"Arsiparis, Pustakawan dan yang berkaitan",Terampil,Pustakawan,9,10,67,10,0
+418,1002202,Pustakawan Pelaksana,22,24,56,"Arsiparis, Pustakawan dan yang berkaitan",Terampil,Pustakawan,6,8,67,10,0
+422,1101103,Peneliti Madya,42,42,65,"Matematika, Statistika dan yang berkaitan",Ahli,Peneliti,14,14,68,11,0
+423,1101104,Peneliti Muda,41,41,65,"Matematika, Statistika dan yang berkaitan",Ahli,Peneliti,13,13,68,11,0
+428,1102100,Statistisi Madya,41,43,56,"Matematika, Statistika dan yang berkaitan",Ahli,Statistisi,13,15,69,11,0
+429,1102101,Statistisi Muda,33,34,56,"Matematika, Statistika dan yang berkaitan",Ahli,Statistisi,11,12,69,11,0
+430,1102102,Statistisi Pertama,31,32,56,"Matematika, Statistika dan yang berkaitan",Ahli,Statistisi,9,10,69,11,0
+431,1102200,Statistisi Penyelia,33,34,56,"Matematika, Statistika dan yang berkaitan",Terampil,Statistisi,11,12,69,11,0
+432,1102201,Statistisi Pelaksana Lanjutan,31,32,56,"Matematika, Statistika dan yang berkaitan",Terampil,Statistisi,9,10,69,11,0
+433,1102202,Statistisi Pelaksana  ,22,24,56,"Matematika, Statistika dan yang berkaitan",Terampil,Statistisi,6,8,69,11,0
+434,1102203,Statistisi Pelaksana Pemula,21,21,56,"Matematika, Statistika dan yang berkaitan",Terampil,Statistisi,5,5,69,11,0
+441,1201202,KEPALA CABANG,22,24,56,Manajemen,Terampil,Analis Kepegawaian,6,6,12,0,3
+442,1202100,Perencana Utama,44,45,56,Manajemen,Ahli,Perencana,16,17,71,12,0
+443,1202101,Perencana Madya,41,43,56,Manajemen,Ahli,Perencana,13,15,71,12,0
+444,1202102,Perencana Muda,33,34,56,Manajemen,Ahli,Perencana,11,12,71,12,0
+445,1202103,Perencana Pertama,31,32,56,Manajemen,Ahli,Perencana,9,10,71,12,0
+446,1301100,Auditor Ahli Utama,44,45,56,Akuntan dan Anggaran,Ahli,Auditor,16,17,72,15,0
+448,1301102,Auditor Ahli Muda,33,34,56,Akuntan dan Anggaran,Ahli,Auditor,11,12,72,15,0
+449,1301103,Auditor Ahli Pertama,31,32,56,Akuntan dan Anggaran,Ahli,Auditor,9,10,72,15,0
+450,1301200,Auditor Penyelia,33,34,56,Akuntan dan Anggaran,Terampil,Auditor,11,12,72,15,0
+451,1301201,Auditor Pelaksana Lanjutan,31,32,56,Akuntan dan Anggaran,Terampil,Auditor,9,10,72,15,0
+452,1301202,Auditor Pelaksana,22,24,56,Akuntan dan Anggaran,Terampil,Auditor,6,8,72,15,0
+453,1401100,Pemeriksa Merek Madya,41,43,56,"Hak Cipta, Paten dan Merek",Ahli,Pemeriksa Merek,13,15,73,16,0
+454,1401101,Pemeriksa Merek Muda,33,34,56,"Hak Cipta, Paten dan Merek",Ahli,Pemeriksa Merek,11,12,73,16,0
+455,1401102,Pemeriksa Merek Pertama,31,32,56,"Hak Cipta, Paten dan Merek",Ahli,Pemeriksa Merek,9,10,73,16,0
+456,1401200,Pemeriksa Merek Penyelia,33,34,56,"Hak Cipta, Paten dan Merek",Terampil,Pemeriksa Merek,11,12,73,16,0
+457,1401201,Pemeriksa Merek Pelaksana Lanjutan,31,32,56,"Hak Cipta, Paten dan Merek",Terampil,Pemeriksa Merek,9,10,73,16,0
+458,1401202,Pemeriksa Merek Pelaksana  ,22,24,56,"Hak Cipta, Paten dan Merek",Terampil,Pemeriksa Merek,6,8,73,16,0
+459,1501100,Perancang Per-UU Utama,44,45,56,Hukum dan Peradilan,Ahli,Perancang Per-UU,16,17,74,17,0
+460,1501101,Perancang Per-UU Madya,41,43,56,Hukum dan Peradilan,Ahli,Perancang Per-UU,13,15,74,17,0
+461,1501102,Perancang Per-UU Muda,33,34,56,Hukum dan Peradilan,Ahli,Perancang Per-UU,11,12,74,17,0
+462,1501103,Perancang Per-UU Pertama,31,32,56,Hukum dan Peradilan,Ahli,Perancang Per-UU,9,10,74,17,0
+463,1501101,Pemeriksa Paten Madya,41,43,56,Hukum dan Peradilan,Ahli,Pemeriksa Paten,13,15,75,17,0
+464,1501102,Pemeriksa Paten Muda,33,34,56,Hukum dan Peradilan,Ahli,Pemeriksa Paten,11,12,75,17,0
+465,1501103,Pemeriksa Paten Pertama,31,32,56,Hukum dan Peradilan,Ahli,Pemeriksa Paten,9,10,75,17,0
+466,1502100,Perantara Hubungan Industrial Madya ,41,43,56,Hukum dan Peradilan,Ahli,Perantara Hubungan Industrial,13,15,76,17,0
+467,1502101,Perantara Hubungan Industrial Muda ,33,34,56,Hukum dan Peradilan,Ahli,Perantara Hubungan Industrial,11,12,76,17,0
+468,1502102,Perantara Hubungan Industrial Pertama,31,32,56,Hukum dan Peradilan,Ahli,Perantara Hubungan Industrial,9,10,76,17,0
+469,1601100,Penyuluh Agama Madya,41,43,56,Keagamaan,Ahli,Penyuluh Agama,13,15,77,18,0
+470,1601101,Penyuluh Agama Muda,33,34,56,Keagamaan,Ahli,Penyuluh Agama,11,12,77,18,0
+471,1601102,Penyuluh Agama Pertama,21,22,56,Keagamaan,Ahli,Penyuluh Agama,5,6,77,18,0
+472,1601200,Penyuluh Agama Penyelia,33,34,56,Keagamaan,Terampil,Penyuluh Agama,11,12,77,18,0
+473,1601201,Penyuluh Agama Pelaksana Lanjutan,31,32,56,Keagamaan,Terampil,Penyuluh Agama,9,10,77,18,0
+474,1601202,Penyuluh Agama Pelaksana   ,22,24,56,Keagamaan,Terampil,Penyuluh Agama,6,8,77,18,0
+475,1701100,Pranata Komputer Utama,44,45,56,Kekomputeran,Ahli,Pranata Komputer,16,17,78,19,0
+476,1701101,Pranata Komputer Madya,41,43,56,Kekomputeran,Ahli,Pranata Komputer,13,15,78,19,0
+477,1701102,Pranata Komputer Muda,33,34,56,Kekomputeran,Ahli,Pranata Komputer,11,12,78,19,0
+478,1701103,Pranata Komputer Pertama,31,32,56,Kekomputeran,Ahli,Pranata Komputer,9,10,78,19,0
+479,1701200,Pranata Komputer Penyelia,33,34,56,Kekomputeran,Terampil,Pranata Komputer,11,12,78,19,0
+480,1701201,Pranata Komputer Pelaksana Lanjutan,31,32,56,Kekomputeran,Terampil,Pranata Komputer,9,10,78,19,0
+481,1701202,Pranata Komputer Pelaksana  ,22,24,56,Kekomputeran,Terampil,Pranata Komputer,6,8,78,19,0
+482,1701203,Pranata Komputer Pelaksana  Pemula ,21,21,56,Kekomputeran,Terampil,Pranata Komputer,5,5,78,19,0
+483,1801100,Pengendali Frekuensi Radio Madya,41,43,56,Operator Alat-alat Optik dan Elektronik,Ahli,Pengendali Frekuensi Radio,13,15,79,20,0
+484,1801101,Pengendali Frekuensi Radio Muda,33,34,56,Operator Alat-alat Optik dan Elektronik,Ahli,Pengendali Frekuensi Radio,11,12,79,20,0
+485,1801102,Pengendali Frekuensi Radio Pertama,31,32,56,Operator Alat-alat Optik dan Elektronik,Ahli,Pengendali Frekuensi Radio,9,10,79,20,0
+486,1801200,Pengendali Frekuensi Radio Penyelia,33,34,56,Operator Alat-alat Optik dan Elektronik,Terampil,Pengendali Frekuensi Radio,11,12,79,20,0
+487,1801201,Pengendali Frekuensi Radio Pelaksana Lanjutan,31,32,56,Operator Alat-alat Optik dan Elektronik,Terampil,Pengendali Frekuensi Radio,9,10,79,20,0
+488,1801202,Pengendali Frekuensi Radio Pelaksana   ,22,24,56,Operator Alat-alat Optik dan Elektronik,Terampil,Pengendali Frekuensi Radio,6,8,79,20,0
+489,1801203,Pengendali Frekuensi Radio Pelaksana Pemula,21,21,56,Operator Alat-alat Optik dan Elektronik,Terampil,Pengendali Frekuensi Radio,5,5,79,20,0
+490,1802200,Operator Transmisi Sandi Penyelia,33,34,56,Operator Alat-alat Optik dan Elektronik,Terampil,Operator Transmisi Sandi,11,12,80,20,0
+491,1802201,Operator Transmisi Sandi Pelaksana Lanjutan,31,32,56,Operator Alat-alat Optik dan Elektronik,Terampil,Operator Transmisi Sandi,9,10,80,20,0
+492,1802202,Operator Transmisi Sandi Pelaksana  ,22,24,56,Operator Alat-alat Optik dan Elektronik,Terampil,Operator Transmisi Sandi,6,8,80,20,0
+493,1901100,Perekayasa Utama,44,45,65,Penelitian dan perekayasaan,Ahli,Perekayasa,16,17,81,21,0
+494,1901101,Perekayasa Madya,41,43,60,Penelitian dan perekayasaan,Ahli,Perekayasa,13,15,81,21,0
+495,1901102,Perekayasa Muda,33,34,56,Penelitian dan perekayasaan,Ahli,Perekayasa,11,12,81,21,0
+496,1901103,Perekayasa Pertama,31,32,56,Penelitian dan perekayasaan,Ahli,Perekayasa,9,10,81,21,0
+497,1902200,Teknisi Litkayasa Penyelia,33,34,56,Penelitian dan perekayasaan,Terampil,Teknisi Litkayasa,11,12,82,21,0
+498,1902201,Teknisi Litkayasa Pelaksana Lanjutan,31,32,56,Penelitian dan perekayasaan,Terampil,Teknisi Litkayasa,9,10,82,21,0
+499,1902202,Teknisi Litkayasa Pelaksana  ,22,24,56,Penelitian dan perekayasaan,Terampil,Teknisi Litkayasa,6,8,82,21,0
+500,1902203,Teknisi Litkayasa Pelaksana Pemula,21,21,56,Penelitian dan perekayasaan,Terampil,Teknisi Litkayasa,5,5,82,21,0
+501,2001100,Sandiman Madya,41,43,60,Penyidik dan detektif,Ahli,Sandiman,13,15,83,22,0
+502,2001101,Sandiman Muda,33,34,60,Penyidik dan detektif,Ahli,Sandiman,11,12,83,22,0
+503,2001102,Sandiman Pertama,31,32,56,Penyidik dan detektif,Ahli,Sandiman,9,10,83,22,0
+504,2001200,Sandiman Penyelia,33,34,60,Penyidik dan detektif,Terampil,Sandiman,11,12,83,22,0
+505,2001201,Sandiman Pelaksana Lanjutan,31,32,56,Penyidik dan detektif,Terampil,Sandiman,9,10,83,22,0
+506,2001202,Sandiman Pelaksana  ,22,24,56,Penyidik dan detektif,Terampil,Sandiman,6,8,83,22,0
+511,2002201,PENATA,31,32,56,Penyidik dan detektif,Terampil,Agen,9,9,22,0,3
+513,2003200,Polisi Kehutanan Penyelia,33,34,56,Penyidik dan detektif,Terampil,Polisi Kehutanan,11,12,85,22,0
+514,2003201,Polisi Kehutanan Pelaksana Lanjutan,31,32,56,Penyidik dan detektif,Terampil,Polisi Kehutanan,9,10,85,22,0
+515,2003202,Polisi Kehutanan Pelaksana  ,22,24,56,Penyidik dan detektif,Terampil,Polisi Kehutanan,6,8,85,22,0
+516,2003203,Polisi Kehutanan Pelaksana Pemula,21,21,56,Penyidik dan detektif,Terampil,Polisi Kehutanan,5,5,85,22,0
+517,2101100,Teknisi Pelayaran Utama Muda,43,43,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Pelayaran,15,15,86,23,0
+518,2101101,Teknisi Pelayaran Utama Pratama,42,42,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Pelayaran,14,14,86,23,0
+519,2101102,Teknisi Pelayaran Madya,41,41,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Pelayaran,13,13,86,23,0
+520,2101103,Teknisi Pelayaran Muda,34,34,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Pelayaran,12,12,86,23,0
+521,2101104,Teknisi Pelayaran Pratama,33,33,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Pelayaran,11,11,86,23,0
+528,2201100,Teknisi Penerbangan Utama Muda,43,43,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Penerbangan,15,15,87,23,0
+529,2201101,Teknisi Penerbangan Utama Pratama,42,42,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Penerbangan,14,14,87,23,0
+530,2201102,Teknisi Penerbangan Madya,41,41,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Penerbangan,13,13,87,23,0
+531,2201103,Teknisi Penerbangan Muda,34,34,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Penerbangan,12,12,87,23,0
+532,2201104,Teknisi Penerbangan Pratama,33,33,56,Teknisi dan Pengontrol Pesawat dan Kapal,Ahli,Teknisi Penerbangan,11,11,87,23,0
+535,2201107,GURU MADYA,24,24,56,Teknisi dan Pengontrol Pesawat dan Kapal,Terampil,Teknisi Penerbangan,8,8,23,0,3
+539,2301100,Duta Besar,44,45,60,,Ahli,,16,17,0,0,0
+540,2301101,Minister,43,43,60,,Ahli,,15,15,0,0,0
+541,2301102,Minister Counsellor,42,42,56,,Ahli,,14,14,0,0,0
+542,2301103,Counsellor,41,41,56,,Ahli,,13,13,0,0,3
+543,2301104,Diplomat Muda,33,34,56,,Ahli,,11,12,0,0,0
+544,2301105,Diplomat Pratama,31,32,56,,Ahli,,9,10,0,0,0
+545,2401100,Jaksa Utama,45,45,58,,Ahli,,17,17,0,0,0
+546,2401101,Jaksa Utama Madya,44,44,58,,Ahli,,16,16,0,0,0
+547,2401102,Jaksa Utama Muda,43,43,58,,Ahli,,15,15,0,0,0
+548,2401103,Jaksa Utama Pratama,42,42,58,,Ahli,,14,14,0,0,0
+549,2401104,Jaksa Madya,41,41,58,,Ahli,,13,13,0,0,0
+550,2401105,Jaksa Muda,34,34,58,,Ahli,,12,12,0,0,0
+551,2401106,Jaksa Pratama,33,33,58,,Ahli,,11,11,0,0,0
