@@ -86,20 +86,14 @@ class SiteController extends Controller
         $inbox=[];
         if ((is_null(Yii::$app->user->identity->pegawai))  || (!is_null(Yii::$app->user->identity->id_satuan_kerja))) {
             $data = [];
-            $pns = Pegawai::find()->where("jenis_pegawai = 'Pegawai Negeri Sipil'")->andWhere('coalesce(id_satuan_kerja,0) <>0');
+            $pns = Pegawai::find();
             if (!is_null(Yii::$app->user->identity->id_satuan_kerja)) {
                 $pns->andWhere("id_satuan_kerja=". Yii::$app->user->identity->id_satuan_kerja);
             }
 
             $pns=$pns->count();
-            $data['pns'] = $pns;
-            $nonPns = Pegawai::find()->where("jenis_pegawai <> 'Pegawai Negeri Sipil'")->andWhere('coalesce(id_satuan_kerja,0) <>0');
-            if (!is_null(Yii::$app->user->identity->id_satuan_kerja)) {
-                $nonPns->andWhere("id_satuan_kerja=" . Yii::$app->user->identity->id_satuan_kerja);
-            }
-
-            $nonPns = $nonPns ->count();
-            $data['non_pns'] = $nonPns;
+            $data['pegawai'] = $pns;
+     
             $masuk = Absen::find();
             if (!is_null(Yii::$app->user->identity->id_satuan_kerja)) {
                 $masuk ->innerJoin("tb_m_pegawai", "tb_m_pegawai.id_pegawai=tb_mt_absen.id_pegawai and id_satuan_kerja=" . Yii::$app->user->identity->id_satuan_kerja);
@@ -151,7 +145,7 @@ class SiteController extends Controller
             $data['absen_pulang'] = $absen_pulang;
             $tidak_masuk = Absen::find()->where(" tgl_absen= '".date('Y-m-d')."'")
         ->count();
-            $data['tidak_masuk'] = $pns + $nonPns - $tidak_masuk;
+            $data['tidak_masuk'] = $pns  - $tidak_masuk;
 
 
 
