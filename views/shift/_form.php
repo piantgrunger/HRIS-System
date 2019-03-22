@@ -13,7 +13,7 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
         <?= $form->errorSummary($model) ?> <!-- ADDED HERE -->
 <div class="row">
-        <label class="col-md-3 col-form-label"><?= $model->getAttributeLabel('nama_satuan_kerja') ?></label>
+        <label class="col-md-3 col-form-label"><?= $model->getAttributeLabel('nama_shift') ?></label>
         <div class="col-md-6">
 
     <?= $form->field($model, 'nama_shift')->textInput(['maxlength' => true])->label(false); ?>
