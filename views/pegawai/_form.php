@@ -71,15 +71,14 @@ $dataShift = ArrayHelper::map(
     'nama'
 );
 
-$dataJenis = ArrayHelper::map(
-    Pegawai::find()
-            ->select(['id' => 'jenis_pegawai', 'nama' => 'jenis_pegawai'])
-            ->distinct()
-            ->asArray()
-            ->all(),
-    'id',
-    'nama'
-);
+$dataJenis =[ 
+  "Pegawai Tetap" => "Pegawai Tetap",
+    "Pegawai Kontrak Harian" => "Pegawai Kontrak Harian",
+    "Pegawai Kontrak Mingguan" => "Pegawai Kontrak Mingguan",
+   "Pegawai Kontrak Bulanan" => "Pegawai Kontrak Bulanan",
+  
+
+]
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Pegawai */
