@@ -27,7 +27,7 @@ $this->title = Yii::t('app', 'Dashboard');
                     <i class="material-icons">alarm_on</i>
                 </div>
                 <p class="card-category">ON TIME</p>
-                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['masuk'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['masuk'] / ($data['pegawai']) * 100, 0); ?> %)</h3>
+                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['masuk'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['masuk'] / ($data['pegawai']!==0)? ($data['pegawai']):1 * 100, 0); ?> %)</h3>
             </div>
             <div class="card-footer">
                 <div class="stats">
@@ -43,7 +43,7 @@ $this->title = Yii::t('app', 'Dashboard');
                     <i class="material-icons">all_inbox</i>
                 </div>
                 <p class="card-category">IZIN</p>
-                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['ijin'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['ijin'] / ($data['pegawai']) * 100, 0); ?> %)</h3>
+                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['ijin'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['ijin'] / ($data['pegawai']!==0)? ($data['pegawai']):1 * 100, 0); ?> %)</h3>
             </div>
             <div class="card-footer">
                 <div class="stats">
@@ -61,7 +61,7 @@ $this->title = Yii::t('app', 'Dashboard');
                     <i class="material-icons">weekend</i>
                 </div>
                 <p class="card-category">TERLAMBAT</p>
-                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['terlambat'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['terlambat'] / ($data['pegawai']) * 100, 0); ?> %)</h3>
+                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['terlambat'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['terlambat'] / ($data['pegawai']!==0)? ($data['pegawai']):1 * 100, 0); ?> %)</h3>
             </div>
             <div class="card-footer">
                 <div class="stats">
@@ -77,7 +77,7 @@ $this->title = Yii::t('app', 'Dashboard');
                     <i class="material-icons">card_travel</i>
                 </div>
                 <p class="card-category">PULANG AWAL</p>
-                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['pulang_cepat'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['pulang_cepat'] / ($data['pegawai']) * 100, 0); ?> %)</h3>
+                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['pulang_cepat'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['pulang_cepat'] / ($data['pegawai']!==0)? ($data['pegawai']):1 * 100, 0); ?> %)</h3>
             </div>
             <div class="card-footer">
                 <div class="stats">
@@ -94,7 +94,7 @@ $this->title = Yii::t('app', 'Dashboard');
                     <i class="material-icons">calendar_today</i>
                 </div>
                 <p class="card-category">TIDAK MASUK</p>
-                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['tidak_masuk'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['tidak_masuk'] / ($data['pegawai']) * 100, 0); ?> %)</h3>
+                <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['tidak_masuk'], 0); ?> (<?= Yii::$app->formatter->asDecimal($data['tidak_masuk'] / ($data['pegawai']!==0)? ($data['pegawai']):1 * 100, 0); ?> %)</h3>
             </div>
             <div class="card-footer">
                 <div class="stats">
