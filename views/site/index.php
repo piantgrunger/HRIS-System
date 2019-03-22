@@ -9,7 +9,7 @@ $this->title = Yii::t('app', 'Dashboard');
                 <div class="card-icon">
                     <i class="material-icons">person</i>
                 </div>
-                <p class="card-category">PNS</p>
+                <p class="card-category">PEGAWAI</p>
                 <h3 class="card-title"><?= Yii::$app->formatter->asDecimal($data['pegawai'], 0); ?></h3>
             </div>
             <div class="card-footer">
