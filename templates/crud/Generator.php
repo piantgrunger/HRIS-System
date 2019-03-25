@@ -232,19 +232,23 @@ class Generator extends \yii\gii\Generator
     {
         $tableSchema = $this->getTableSchema();
 
+        $formStatement = "<div class=\"row\">
+        <label class=\"col-md-3 col-form-label\"><?=". '$model->getAttributeLabel(\''.$attribute.'\') ?>'."</label>
+        <div class=\"col-md-6\">";
+
 
         if ($tableSchema === false || !isset($tableSchema->columns[$attribute])) {
             if (preg_match('/^(password|pass|passwd|passcode)$/i', $attribute)) {
-                return "\$form->field(\$model, '$attribute')->passwordInput()";
+                $formStatement .=  "<?=\$form->field(\$model, '$attribute')->passwordInput()->label(false)?>";
             } else {
-                return "\$form->field(\$model, '$attribute')";
+                $formStatement .=  "<?=\$form->field(\$model, '$attribute')?>";
             }
         }
         $column = $tableSchema->columns[$attribute];
         if ($column->phpType === 'boolean') {
-            return "\$form->field(\$model, '$attribute')->checkbox()";
+            $formStatement .=  "<?=\$form->field(\$model, '$attribute')->checkbox()->label(false)?>";
         } elseif ($column->type === 'text') {
-            return "\$form->field(\$model, '$attribute')->textarea(['rows' => 6])";
+            $formStatement .=  "<?=\$form->field(\$model, '$attribute')->textarea(['rows' => 6])->label(false)?>";
         } 
         
         else {
@@ -258,13 +262,16 @@ class Generator extends \yii\gii\Generator
                 foreach ($column->enumValues as $enumValue) {
                     $dropDownOptions[$enumValue] = Inflector::humanize($enumValue);
                 }
-                return "\$form->field(\$model, '$attribute')->dropDownList("
-                    . preg_replace("/\n\s*/", ' ', VarDumper::export($dropDownOptions)).", ['prompt' => ''])";
+                $formStatement .=  "<?=\$form->field(\$model, '$attribute')->dropDownList("
+                    . preg_replace("/\n\s*/", ' ', VarDumper::export($dropDownOptions)).", ['prompt' => ''])->label(false)?>";
             } elseif ($column->phpType !== 'string' || $column->size === null) {
-                return "\$form->field(\$model, '$attribute')->$input()";
+                $formStatement .=  "<?=\$form->field(\$model, '$attribute')->$input()->label(false)?>";
             } else {
-                return "\$form->field(\$model, '$attribute')->$input(['maxlength' => true])";
+                $formStatement .=  "<?=\$form->field(\$model, '$attribute')->$input(['maxlength' => true])->label(false)?>";
             }
+
+            $formStatement .= "</div></div>";
+            return $formStatement;
         }
     }
 

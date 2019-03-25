@@ -34,7 +34,7 @@ use yii\widgets\ActiveForm;
     &&
      (!in_array($attribute, ['created_at','updated_at'])))
     {
-        echo "    <?= " . $generator->generateActiveField($attribute) . " ?>\n\n";
+        echo "     " . $generator->generateActiveField($attribute) . " \n\n";
     }
 } ?>
     <div class="form-group">

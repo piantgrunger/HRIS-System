@@ -30,7 +30,7 @@ class UnitKerja extends \yii\db\ActiveRecord
             [['kode_unit_kerja', 'nama_unit_kerja'], 'required'],
             [['kode_unit_kerja'], 'string', 'max' => 50],
             [['nama_unit_kerja'], 'string', 'max' => 100],
-            [['id_satuan_kerja'],'safe'],
+            [['id_satuan_kerja'],'safe'],]
         ];
     }
 
