@@ -13,9 +13,13 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
         <?= $form->errorSummary($model) ?> <!-- ADDED HERE -->
 
-    <?= $form->field($model, 'nama_jenis_absen')->textInput(['maxlength' => true]) ?>
+     <div class="row">
+        <label class="col-md-3 col-form-label"><?=$model->getAttributeLabel('nama_jenis_absen') ?></label>
+        <div class="col-md-6"><?=$form->field($model, 'nama_jenis_absen')->textInput(['maxlength' => true])->label(false)?></div></div> 
 
-    <?= $form->field($model, 'status_hadir')->dropDownList([ 'Hadir' => 'Hadir', 'Tidak Hadir' => 'Tidak Hadir', ], ['prompt' => '']) ?>
+     <div class="row">
+        <label class="col-md-3 col-form-label"><?=$model->getAttributeLabel('status_hadir') ?></label>
+        <div class="col-md-6"><?=$form->field($model, 'status_hadir')->dropDownList([ 'Hadir' => 'Hadir', 'Tidak Hadir' => 'Tidak Hadir', ], ['prompt' => ''])->label(false)?></div></div> 
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']) ?>

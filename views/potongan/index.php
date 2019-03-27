@@ -7,9 +7,12 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
 
-$gridColumns=[['class' => 'yii\grid\SerialColumn'], 
-            'nama_jenis_absen',
-            'status_hadir',
+$gridColumns=[['class' => 'yii\grid\SerialColumn'],
+            'kode_potongan',
+            'nama_potongan',
+            'jenis_potongan:decimal',
+            'jumlah',
+            // 'keterangan:ntext',
 
            ['class' => 'yii\grid\ActionColumn', 'options' => [
             'width' => '120px',
@@ -17,23 +20,23 @@ $gridColumns=[['class' => 'yii\grid\SerialColumn'],
         'contentOptions' => ['class' => 'td-actions text-right'],
         'headerOptions' => ['class' => 'text-right'],
            'template' => Mimin::filterActionColumn([
-              'update', 'delete', 'view', ],$this->context->route)],    ];
+              'update', 'delete', 'view', ], $this->context->route)],    ];
 
 
 /* @var $this yii\web\View */
-/* @var $searchModel app\models\JenisAbsenSearch */
+/* @var $searchModel app\models\PotonganSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('app', 'Daftar Jenis Absen');
+$this->title = Yii::t('app', 'Daftar Potongan');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="jenis-absen-index">
+<div class="potongan-index">
 
 <div class="row">
     <div class="col-sm-12">
         <div class="card">
             <div class="card-body text-left">
-              <?= Html::a('<i class="material-icons">add</i>' . Yii::t('app', 'Jenis Absen Baru'), ['create'], ['class' => 'btn btn-success']) ?>            </div>
+              <?= Html::a('<i class="material-icons">add</i>' . Yii::t('app', 'Potongan Baru'), ['create'], ['class' => 'btn btn-success']) ?>            </div>
         </div>
     </div>
      <div class="col-md-12">
@@ -53,13 +56,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
     <?php Pjax::begin(); ?>
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php // echo $this->render('_search', ['model' => $searchModel]);?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => $gridColumns,
-        
+
     ]);
  ?>
 

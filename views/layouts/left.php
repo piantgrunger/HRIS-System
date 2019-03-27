@@ -7,17 +7,16 @@ $menuItems = [
     [
         'label' => 'Master', 'icon' => 'person', 'url' => ['#'], 'parent' => 0, 'id' => 88,
         'items' => [
-            ['label' => 'Satuan Kerja', 'icon' => 'person', 'url' => ['/satuan-kerja/index'], 'parent' => 75, 'id' => 70],
-            ['label' => 'Unit Kerja', 'icon' => 'person', 'url' => ['/unit-kerja/index'], 'parent' => 75, 'id' => 69],
-     
-            ['label' => 'Pegawai', 'icon' => 'person', 'url' => ['/pegawai/index'], 'parent' => 88, 'id' => 87],
-            ['label' => 'Jabatan ', 'icon' => 'person', 'url' => ['/jabatan-fungsional/index'], 'parent' => 88, 'id' => 82],
-            ['label' => 'Shift', 'icon' => 'person', 'url' => ['/shift/index'], 'parent' => 75, 'id' => 73],
-            ['label' => 'Hari Libur', 'icon' => 'person', 'url' => ['/hari-libur/index'], 'parent' => 75, 'id' => 72],
-       
+            ['label' => 'Satuan Kerja', 'icon' => 'person', 'url' => ['/satuan-kerja/index'], 'parent' => 88, 'id' => 70],
+            ['label' => 'Unit Kerja', 'icon' => 'person', 'url' => ['/unit-kerja/index'], 'parent' => 88, 'id' => 69],
+            ['label' => 'Jabatan ', 'icon' => 'person', 'url' => ['/jabatan-fungsional/index'], 'parent' => 88, 'id' => 68],
 
-     
-           
+            ['label' => 'Pegawai', 'icon' => 'person', 'url' => ['/pegawai/index'], 'parent' => 88, 'id' => 67],
+
+
+
+
+
         ],
     ],
 
@@ -25,14 +24,25 @@ $menuItems = [
         'label' => 'Pengaturan Absensi', 'icon' => 'date_range', 'url' => ['#'], 'parent' => 0, 'id' => 75,
         'items' => [
 
-            ['label' => 'Monitoring Absensi', 'icon' => 'person', 'url' => ['/satuan-kerja/monitoring'], 'parent' => 75, 'id' => 70],
-
-            ['label' => 'Absensi', 'icon' => 'person', 'url' => ['/absen/index'], 'parent' => 75, 'id' => 74],
+            ['label' => 'Shift', 'icon' => 'person', 'url' => ['/shift/index'], 'parent' => 75, 'id' => 73],
+            ['label' => 'Hari Libur', 'icon' => 'person', 'url' => ['/hari-libur/index'], 'parent' => 75, 'id' => 72],
             ['label' => 'Ijin', 'icon' => 'person', 'url' => ['/ijin/index'], 'parent' => 75, 'id' => 71],
 
+            ['label' => 'Absensi', 'icon' => 'person', 'url' => ['/absen/index'], 'parent' => 75, 'id' => 74],
+
+
+            ['label' => 'Jenis Absensi', 'icon' => 'person', 'url' => ['/jenis-absen/index'], 'parent' => 75, 'id' => 72],
+        ],
+    ],
+    [
+        'label' => 'Payroll', 'icon' => 'money', 'url' => ['#'], 'parent' => 0, 'id' => 99,
+        'items' => [
+            ['label' => 'Tunjangan', 'icon' => 'person', 'url' => ['/tunjangan/index'], 'parent' => 99, 'id' => 98],
+            ['label' => 'Potongan', 'icon' => 'person', 'url' => ['/potongan/index'], 'parent' => 99, 'id' => 97],
 
         ],
     ],
+
     [
         'label' => 'Laporan Absensi', 'icon' => 'insert_chart_outlined', 'url' => ['#'], 'parent' => 0, 'id' => 78,
         'items' => [
@@ -41,7 +51,7 @@ $menuItems = [
         ],
     ],
 
-    
+
     [
         'label' => ' User / Group',
         'icon' => 'people',
@@ -80,7 +90,7 @@ use yii\helpers\Url;
             <img src="<?= Url::to(['/Image/logo.png']); ?>" width="30" height="36" />
         </a>
         <a href="<?= Yii::$app->homeUrl; ?>" class="simple-text logo-normal">
-           HRM System
+            HRM System
         </a>
     </div>
     <div class="sidebar-wrapper">

@@ -91,10 +91,6 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
         },
         'headerOptions' => ['style' => 'width:20%'],
     ],
-    [
-        'attribute' => 'pangkat',
-        'headerOptions' => ['style' => 'width:20%'],
-    ],
 
     [
         'attribute' => 'nama_satuan_kerja',

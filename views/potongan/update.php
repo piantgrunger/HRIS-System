@@ -3,17 +3,17 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\JenisAbsen */
+/* @var $model app\models\Potongan */
 
 $this->title = Yii::t('app', 'Update {modelClass}: ', [
-    'modelClass' => 'Jenis Absen',
-]) . $model->id_jenis_absen;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Daftar Jenis Absen'), 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->id_jenis_absen, 'url' => ['view', 'id' => $model->id_jenis_absen]];
+    'modelClass' => 'Potongan',
+]) . $model->kode_potongan;
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Daftar Potongan'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->kode_potongan, 'url' => ['view', 'id' => $model->id_potongan]];
 $this->params['breadcrumbs'][] = Yii::t('app', 'Update');
 ?>
-<div class="jenis-absen-update">
-<div class="jenis-absen-create">
+<div class="potongan-update">
+<div class="potongan-create">
 
 <div class="row">
     <div class="col-md-12">

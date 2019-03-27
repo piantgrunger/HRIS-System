@@ -7,11 +7,11 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
 
-$gridColumns=[['class' => 'yii\grid\SerialColumn'], 
+$gridColumns=[['class' => 'yii\grid\SerialColumn'],
             'kode_tunjangan',
             'nama_tunjangan',
             'jenis_tunjangan',
-            'jumlah',
+            'jumlah:decimal',
             // 'keterangan:ntext',
 
            ['class' => 'yii\grid\ActionColumn', 'options' => [
@@ -20,7 +20,7 @@ $gridColumns=[['class' => 'yii\grid\SerialColumn'],
         'contentOptions' => ['class' => 'td-actions text-right'],
         'headerOptions' => ['class' => 'text-right'],
            'template' => Mimin::filterActionColumn([
-              'update', 'delete', 'view', ],$this->context->route)],    ];
+              'update', 'delete', 'view', ], $this->context->route)],    ];
 
 
 /* @var $this yii\web\View */
@@ -56,13 +56,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
     <?php Pjax::begin(); ?>
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php // echo $this->render('_search', ['model' => $searchModel]);?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => $gridColumns,
-        
+
     ]);
  ?>
 
