@@ -10,8 +10,8 @@ use yii\widgets\Pjax;
 $gridColumns=[['class' => 'yii\grid\SerialColumn'],
             'kode_potongan',
             'nama_potongan',
-            'jenis_potongan:decimal',
-            'jumlah',
+            'jenis_potongan',
+            'jumlah:decimal',
             // 'keterangan:ntext',
 
            ['class' => 'yii\grid\ActionColumn', 'options' => [
@@ -43,7 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="card">
             <div class="card-header card-header-rose card-header-icon">
                 <div class="card-icon">
-                    <i class="material-icons">calendar_today</i>
+                    <i class="material-icons">money</i>
                 </div>
                 <h4 class="card-title"><?= $this->title ?> </h4>
             </div>

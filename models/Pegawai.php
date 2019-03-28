@@ -82,7 +82,7 @@ class Pegawai extends \yii\db\ActiveRecord
             [['nama', 'alamat', 'jenis_kelamin', 'tempat_lahir', 'tanggal_lahir', 'id_shift', 'jenis_pegawai', 'tmt'], 'required'],
             [['alamat'], 'string'],
             [['id_unit_kerja', 'id_satuan_kerja', 'id_jabatan_fungsional', 'id_shift'], 'integer'],
-            [['tanggal_lahir', 'id_jabatan_tambahan', 'id_atasan','status'], 'safe'],
+            [['tanggal_lahir', 'id_jabatan_tambahan', 'id_atasan','status','gaji_pokok','gaji_lembur'], 'safe'],
             [['nip', 'gelar_depan', 'gelar_belakang'], 'string', 'max' => 50],
             [['nik'], 'string', 'max' => 50],
             [['nama', 'jenis_kelamin', 'tempat_lahir', 'kode_checklog'], 'string', 'max' => 255],

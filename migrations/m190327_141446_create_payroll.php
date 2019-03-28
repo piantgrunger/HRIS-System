@@ -13,7 +13,7 @@ class m190327_141446_create_payroll extends Migration
     public function safeUp()
     {
         $this->addColumn('tb_m_pegawai', 'gaji_pokok', $this->decimal(19, 2)->notNull()->defaultValue(0));
-        $this->addColumn('tb_m_pegawai', ' gaji_lembur', $this->decimal(19, 2)->notNull()->defaultValue(0));
+        $this->addColumn('tb_m_pegawai', 'gaji_lembur', $this->decimal(19, 2)->notNull()->defaultValue(0));
         $this->createTable('tb_d_payroll_tunjangan', [
             'id_payroll' =>$this->primaryKey(),
             'id_pegawai' => $this->integer()->notNull(),

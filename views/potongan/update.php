@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = Yii::t('app', 'Update');
         <div class="card ">
             <div class="card-header card-header-rose card-header-icon">
                 <div class="card-icon">
-                    <i class="material-icons">access_time</i>
+                    <i class="material-icons">money</i>
                 </div>
                 <h4 class="card-title"><?= Html::encode($this->title) ?></h4>
             </div>
