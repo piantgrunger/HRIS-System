@@ -39,6 +39,7 @@ $menuItems = [
         'items' => [
             ['label' => 'Tunjangan', 'icon' => 'person', 'url' => ['/tunjangan/index'], 'parent' => 99, 'id' => 98],
             ['label' => 'Potongan', 'icon' => 'person', 'url' => ['/potongan/index'], 'parent' => 99, 'id' => 97],
+            ['label' => 'Data Payroll', 'icon' => 'person', 'url' => ['/payroll/index'], 'parent' => 99, 'id' => 97],
 
         ],
     ],

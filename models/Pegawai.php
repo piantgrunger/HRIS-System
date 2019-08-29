@@ -375,9 +375,27 @@ class Pegawai extends \yii\db\ActiveRecord
     {
         return $this->loadRelated('detailFileGaji', $value);
     }
-    
+
     public function setDetailFileIjazah($value)
     {
         return $this->loadRelated('detailFileIjazah', $value);
+    }
+
+    public function getDetailPayrollTunjangan()
+    {
+        return $this->hasMany(DetPayrollTunjangan::className(), ['id_pegawai' => 'id_pegawai']);
+    }
+    public function setDetailPayrollTunjangan($value)
+    {
+        return $this->loadRelated('detailPayrollTunjangan', $value);
+    }
+
+    public function getDetailPayrollPotongan()
+    {
+        return $this->hasMany(DetPayrollPotongan::className(), ['id_pegawai' => 'id_pegawai']);
+    }
+    public function setDetailPayrollPotongan($value)
+    {
+        return $this->loadRelated('detailPayrollPotongan', $value);
     }
 }

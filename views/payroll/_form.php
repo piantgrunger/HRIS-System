@@ -39,18 +39,18 @@ $dataUnitKerja = ArrayHelper::map(
 
     <?php $form = ActiveForm::begin(['id' => 'form-modules', 'class' => 'form-horizontal', 'method' => 'post', 'options' => ['enctype' => 'multipart/form-data']]); ?>    <?= $form->errorSummary($model); ?> <!-- ADDED HERE -->
 
- 
+
     <div class="row">
         <label class="col-md-3 col-form-label"><?= $model->getAttributeLabel('nip'); ?></label>
         <div class="col-md-6">       <?= $form->field($model, 'nip')->textInput(['maxlength' => true,'readOnly' => true ])->label(false); ?>
     </div>
     </div>
 
-  
+
     <div class="row">
         <label class="col-md-3 col-form-label"><?= $model->getAttributeLabel('nama'); ?></label>
         <div class="col-md-6">        <?= $form->field($model, 'nama')->textInput(['maxlength' => true,'readOnly' => true])->label(false); ?>
- 
+
     </div>
     </div>
 
@@ -67,6 +67,38 @@ $dataUnitKerja = ArrayHelper::map(
         </div>
     </div>
 
+<div class="panel panel-success">
+<div class="panel-heading"> Data Tunjangan
+
+</div>
+<div class="panel-body">
+    <table class="table">
+    <thead>
+        <tr>
+
+            <th>Tunjangan</th>
+            <th>Jumlah</th>
+
+            <th><a id="btn-add2" href="#"><span class="glyphicon glyphicon-plus"></span>  </a></th>
+        </tr>
+    </thead>
+    <?= \mdm\widgets\TabularInput::widget([
+        'id' => 'detail-grid',
+        'allModels' => $model->detailPayrollTunjangan,
+        'model' => \app\models\DetPayrollTunjangan::className(),
+        'tag' => 'tbody',
+        'form' => $form,
+        'itemOptions' => ['tag' => 'tr'],
+        'itemView' => '_item_tunjangan',
+        'clientOptions' => [
+            'btnAddSelector' => '#btn-add2',
+        ]
+    ]);
+    ?>
+    </table>
+    </div>
+
+    </div>
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']); ?>
