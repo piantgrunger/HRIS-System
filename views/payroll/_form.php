@@ -4,17 +4,7 @@ use hscstudio\mimin\components\Mimin;
 use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use app\models\UnitKerja;
-use kartik\select2\Select2;
-use yii\helpers\ArrayHelper;
-use kartik\widgets\DepDrop;
-//use kartik\datecontrol\DateControl;
-use app\models\JabatanFungsional;
-use app\models\JabatanTambahan;
-use app\models\Golongan;
-use app\models\Shift;
-use app\models\SatuanKerja;
-use app\models\Pegawai;
+use yii\bootstrap\Tabs;
 
 //use kartik\widgets\FileInput;
 /*
@@ -39,7 +29,21 @@ $dataUnitKerja = ArrayHelper::map(
 
     <?php $form = ActiveForm::begin(['id' => 'form-modules', 'class' => 'form-horizontal', 'method' => 'post', 'options' => ['enctype' => 'multipart/form-data']]); ?>    <?= $form->errorSummary($model); ?> <!-- ADDED HERE -->
 
+<?php
 
+$items = [
+    [
+        'label' => 'Tunjangan',
+        'content' => $this->render('_tab_tunjangan.php', ['model' => $model, 'form' => $form]),
+        'active' => true
+    ],
+    [
+        'label' => 'Potongan',
+        'content' => $this->render('_tab_potongan.php', ['model' => $model, 'form' => $form]),
+      
+    ],
+];
+?>
     <div class="row">
         <label class="col-md-3 col-form-label"><?= $model->getAttributeLabel('nip'); ?></label>
         <div class="col-md-6">       <?= $form->field($model, 'nip')->textInput(['maxlength' => true,'readOnly' => true ])->label(false); ?>
@@ -67,39 +71,9 @@ $dataUnitKerja = ArrayHelper::map(
         </div>
     </div>
 
-<div class="panel panel-success">
-<div class="panel-heading"> Data Tunjangan
+    <?= Tabs::widget(['items' =>  $items ,'navType' =>'nav-pills']);  ?>
 
-</div>
-<div class="panel-body">
-    <table class="table">
-    <thead>
-        <tr>
-
-            <th>Tunjangan</th>
-            <th>Jumlah</th>
-
-            <th><a id="btn-add2" href="#"><span class="glyphicon glyphicon-plus"></span>  </a></th>
-        </tr>
-    </thead>
-    <?= \mdm\widgets\TabularInput::widget([
-        'id' => 'detail-grid',
-        'allModels' => $model->detailPayrollTunjangan,
-        'model' => \app\models\DetPayrollTunjangan::className(),
-        'tag' => 'tbody',
-        'form' => $form,
-        'itemOptions' => ['tag' => 'tr'],
-        'itemView' => '_item_tunjangan',
-        'clientOptions' => [
-            'btnAddSelector' => '#btn-add2',
-        ]
-    ]);
-    ?>
-    </table>
-    </div>
-
-    </div>
-
+ 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']); ?>
     </div>

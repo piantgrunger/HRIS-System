@@ -1,17 +1,17 @@
 <?php
 use kartik\select2\Select2;
-use app\models\Tunjangan;
+use app\models\Potongan;
 use yii\helpers\ArrayHelper;
 
-$data = ArrayHelper::map(Tunjangan::find()->select(['id_tunjangan','nama_tunjangan'=>"concat(kode_tunjangan,' - ',nama_tunjangan)"])
-->asArray()->all(), 'id_tunjangan', 'nama_tunjangan');
+$data = ArrayHelper::map(Potongan::find()->select(['id_potongan','nama_potongan'=>"concat(kode_potongan,' - ',nama_potongan)"])
+->asArray()->all(), 'id_potongan', 'nama_potongan');
 
 ?>
 <td>
-<?= $form->field($model, "[$key]id_tunjangan")->widget(Select2::classname(), [
+<?= $form->field($model, "[$key]id_potongan")->widget(Select2::classname(), [
     'data' => $data,
     'options' => [
-        'placeholder' => 'Pilih Tunjangan ...',
+        'placeholder' => 'Pilih Potongan ...',
     ],
     'pluginOptions' => [
         'allowClear' => true,

@@ -34,8 +34,8 @@ class DetPayrollTunjangan extends \yii\db\ActiveRecord
             [['id_pegawai', 'id_tunjangan'], 'required'],
             [['id_pegawai', 'id_tunjangan'], 'integer'],
             [['jumlah'], 'number'],
-            [['id_pegawai'], 'exist', 'skipOnError' => true, 'targetClass' => TbMPegawai::className(), 'targetAttribute' => ['id_pegawai' => 'id_pegawai']],
-            [['id_tunjangan'], 'exist', 'skipOnError' => true, 'targetClass' => TbMTunjangan::className(), 'targetAttribute' => ['id_tunjangan' => 'id_tunjangan']],
+            [['id_pegawai'], 'exist', 'skipOnError' => true, 'targetClass' => Pegawai::className(), 'targetAttribute' => ['id_pegawai' => 'id_pegawai']],
+            [['id_tunjangan'], 'exist', 'skipOnError' => true, 'targetClass' => Tunjangan::className(), 'targetAttribute' => ['id_tunjangan' => 'id_tunjangan']],
         ];
     }
 
@@ -57,7 +57,7 @@ class DetPayrollTunjangan extends \yii\db\ActiveRecord
      */
     public function getPegawai()
     {
-        return $this->hasOne(TbMPegawai::className(), ['id_pegawai' => 'id_pegawai']);
+        return $this->hasOne(Pegawai::className(), ['id_pegawai' => 'id_pegawai']);
     }
 
     /**
@@ -65,6 +65,6 @@ class DetPayrollTunjangan extends \yii\db\ActiveRecord
      */
     public function getTunjangan()
     {
-        return $this->hasOne(TbMTunjangan::className(), ['id_tunjangan' => 'id_tunjangan']);
+        return $this->hasOne(Tunjangan::className(), ['id_tunjangan' => 'id_tunjangan']);
     }
 }

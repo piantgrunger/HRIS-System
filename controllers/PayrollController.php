@@ -30,8 +30,24 @@ class PayrollController extends Controller
         $model = $this->findModel($id);
 
 
-        if ($model->load(Yii::$app->request->post())  && $model->save()) {
-            return $this->redirect('index');
+        if ($model->load(Yii::$app->request->post()) ) {
+
+            $transaction = Yii::$app->db->beginTransaction();
+            try {
+                $model->detailPayrollTunjangan = Yii::$app->request->post('DetPayrollTunjangan', []);
+                $model->detailPayrollPotongan = Yii::$app->request->post('DetPayrollPotongan', []);
+                if (($model->save())) {
+                    $transaction->commit();
+                    return $this->redirect(['index']);
+                }
+            } catch (\Exception $ecx) {
+                $transaction->rollBack();
+                throw $ecx;
+            }
+            return $this->render('update', [
+                'model' => $model,
+            ]);
+            return $this->redirect(['index']);
         } else {
             return $this->render('update', [
                 'model' => $model,
