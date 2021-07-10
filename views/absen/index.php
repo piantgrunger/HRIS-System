@@ -4,7 +4,7 @@
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
 use dmstr\widgets\Alert;
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 
 $this->registerJs('
@@ -40,7 +40,7 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
 
         //         'total_jam_potong',
 
-         ['class' => 'yii\grid\ActionColumn',
+         ['class' => 'app\widgets\grid\ActionColumn',
         'options' => [
             'width' => '120px',
         ],

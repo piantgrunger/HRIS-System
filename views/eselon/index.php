@@ -3,7 +3,7 @@
 
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
-use dmstr\widgets\Alert;use yii\grid\GridView;
+use dmstr\widgets\Alert;use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 
 $gridColumns = [['class' => 'yii\grid\SerialColumn'],
@@ -13,7 +13,7 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
             'tpp_dinamis',
              'tpp_statis',
 
-         ['class' => 'yii\grid\ActionColumn',
+         ['class' => 'app\widgets\grid\ActionColumn',
         'options' => [
             'width' => '120px',
         ],

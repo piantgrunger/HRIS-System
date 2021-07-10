@@ -29,7 +29,7 @@ class JabatanFungsional extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nama_jabatan_fungsional','status_jabatan'], 'required'],
+            [['nama_jabatan_fungsional','status_jabatan','id_satuan_kerja','id_unit_kerja'], 'required'],
 
             [['nama_jabatan_fungsional'], 'string', 'max' => 100],
             [['ruang_awal', 'ruang_akhir'], 'string', 'max' => 4],

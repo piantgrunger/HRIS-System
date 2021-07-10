@@ -3,14 +3,14 @@
 
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
-use dmstr\widgets\Alert;use yii\grid\GridView;
+use dmstr\widgets\Alert;use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 
 $gridColumns = [['class' => 'yii\grid\SerialColumn'],
             'nama_hari_libur',
             'tanggal_libur:date',
 
-         ['class' => 'yii\grid\ActionColumn', 'options' => [
+         ['class' => 'app\widgets\grid\ActionColumn', 'options' => [
             'width' => '120px',
         ],
         'contentOptions' => ['class' => 'td-actions text-right'],

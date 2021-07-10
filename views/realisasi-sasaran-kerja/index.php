@@ -2,7 +2,7 @@
 
 
 use hscstudio\mimin\components\Mimin;
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\Pjax;
@@ -49,7 +49,7 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
             ],
            'kualitas_realisasi',
 
-         ['class' => 'yii\grid\ActionColumn',
+         ['class' => 'app\widgets\grid\ActionColumn',
          'options' => [
              'width' => '120px',
          ],

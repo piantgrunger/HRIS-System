@@ -203,7 +203,7 @@ $dataJenis =[
                 ->label(false); ?>
         </div>
     </div>
-
+<!--
     <div class="row">
         <label class="col-md-3 col-form-label">Jabatan Tambahan</label>
         <div class="col-md-6">
@@ -214,6 +214,7 @@ $dataJenis =[
                     ]
                 )->label(false); ?>
         </div>
+            -->
     </div>
         <div class="row">
         <label class="col-md-3 col-form-label">Atasan</label>
@@ -262,7 +263,7 @@ $dataJenis =[
             <?= $form->field($model, 'id_shift')->widget(Select2::className(), ['data' => $dataShift, 'options' => ['prompt' => 'Pilih Shift ...']])->label(false); ?>
         </div>
     </div>
-
+<!--
 
     <div class="row">
         <label class="col-md-3 col-form-label">Golongan</label>
@@ -273,7 +274,7 @@ $dataJenis =[
              ], ])->label(false); ?>
         </div>
     </div>
-
+            -->
 
 
     <div class="row">

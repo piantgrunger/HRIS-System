@@ -4,7 +4,7 @@
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
 use dmstr\widgets\Alert;
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 use kartik\export\ExportMenu;
 
@@ -14,7 +14,7 @@ $gridColumns=[['class' => 'yii\grid\SerialColumn'],
 
             'tambahan_tpp',
 
-         ['class' => 'yii\grid\ActionColumn',
+         ['class' => 'app\widgets\grid\ActionColumn',
                                          'header' => "Actions",
                                 'options' => [
                                     'width' => '120px',

@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="col-md-7">
 <div class="panel panel-info">
-<div class="panel-heading"><i class="glyphicon glyphicon-tasks"></i><b> Data Pejabat</b></div>
+<div class="panel-heading"><i class="glyphicon glyphicon-tasks"></i><b> Data </b></div>
 <div class="panel-body">
 <br>
  <b><?=$model->nama_jabatan;?> PADA <?= $model->nama_satuan_kerja; ?>  </b>
@@ -30,7 +30,6 @@ $this->params['breadcrumbs'][] = $this->title;
   NIP : <?=$model->nip?>
 <hr>
 <?=$model->pangkat?><br>
-Jabatan Tambahan :  <?=$model->nama_jabatan_tambahan ?>
 
 </div>
 </div>
@@ -51,38 +50,5 @@ Jabatan Tambahan :  <?=$model->nama_jabatan_tambahan ?>
 
 
 
-<div class="col-md-6">
-<div class="panel panel-info">
-<div class="panel-heading"><i class="glyphicon glyphicon-tasks"></i><b> Profil Pejabat</b></div>
-<div class="panel-body">
-<br>
-<b>Jabatan</b><br><br>
-<?php
-           foreach ($model->riwayat_jabatan as $detail) {
-               echo yii::$app->formatter->asDate($detail->tmt) ." - ". $detail->nama_jabatan ." PADA ".$detail->unit_kerja  ."<hr>";
-           }
-
-?>
-
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="panel panel-info">
-<div class="panel-heading"><i class="glyphicon glyphicon-tasks"></i><b> Diklat</b></div>
-<div class="panel-body">
-<?php
-foreach ($model->riwayat_diklat as $detail) {
-    echo yii::$app->formatter->asDate($detail->tgl_mulai) . " - " . yii::$app->formatter->asDate($detail->tgl_selesai) ." : " . $detail->nama_diklat . "<hr>";
-}
-
-?>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
 
 </div>

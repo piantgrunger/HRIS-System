@@ -4,7 +4,7 @@
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
 use dmstr\widgets\Alert;
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 use yii\bootstrap\Modal;
 use yii\helpers\Url;
@@ -121,7 +121,7 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
  }
 */
 
-      $gridColumns[] = ['class' => 'yii\grid\ActionColumn',
+      $gridColumns[] = ['class' => 'app\widgets\grid\ActionColumn',
     'options' => [
         'width' => '120px',
     ],

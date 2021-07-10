@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\helpers\Url;
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 use dmstr\widgets\Alert;
 use yii\bootstrap\Modal;
@@ -74,7 +74,7 @@ $gridColumns = [
             // 'tahun',
 
     [
-        'class' => 'yii\grid\ActionColumn',
+        'class' => 'app\widgets\grid\ActionColumn',
         'options' => [
             'width' => '120px',
         ],

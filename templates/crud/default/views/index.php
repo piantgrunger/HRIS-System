@@ -50,7 +50,7 @@ if (($tableSchema = $generator->getTableSchema()) === false) {
 }
 ?>
 
-        <?php echo  "   ['class' => 'yii\grid\ActionColumn', 'options' => [
+        <?php echo  "   ['class' => 'app\widgets\grid\ActionColumn', 'options' => [
             'width' => '120px',
         ],
         'contentOptions' => ['class' => 'td-actions text-right'],

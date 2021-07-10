@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use dmstr\widgets\Alert;use yii\grid\GridView;
+use dmstr\widgets\Alert;use app\widgets\grid\GridView;
 
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\settings\RolesSearch */
@@ -37,7 +37,7 @@ $this->title = Yii::t('app', 'Roles');
                             'display_name',
                             'description',
                             [
-                                'class' => 'yii\grid\ActionColumn',
+                                'class' => 'app\widgets\grid\ActionColumn',
                                 'header' => "Actions",
                                 'template' => '{view}{update}{delete}',
                                 'contentOptions' => ['class' => 'td-actions text-right'],

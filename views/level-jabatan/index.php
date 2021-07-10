@@ -14,7 +14,7 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
              'tpp_dinamis',
              'tpp_statis',
 
-         ['class' => 'yii\grid\ActionColumn',   'template' => Mimin::filterActionColumn([
+         ['class' => 'app\widgets\grid\ActionColumn',   'template' => Mimin::filterActionColumn([
               'update', 'delete', 'view', ], $this->context->route)],    ];
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\LevelJabatanSearch */

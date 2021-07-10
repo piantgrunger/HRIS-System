@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use dmstr\widgets\Alert;
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\modules\administrator\models\UserSearch */
@@ -55,7 +55,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             }
                         ],
                         [
-                            'class' => 'yii\grid\ActionColumn',
+                            'class' => 'app\widgets\grid\ActionColumn',
                             'header' => "Actions",
                             'template' => '{view}{update}{delete}',
                             'contentOptions' => ['class' => 'td-actions text-right'],

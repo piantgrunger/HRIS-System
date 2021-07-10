@@ -3,7 +3,7 @@
 
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
-use dmstr\widgets\Alert;use yii\grid\GridView;
+use dmstr\widgets\Alert;use app\widgets\grid\GridView;
 
 use yii\widgets\Pjax;
 
@@ -11,7 +11,7 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
             'kode_unit_kerja',
             'nama_unit_kerja',
             'nama_satuan_kerja',
-         ['class' => 'yii\grid\ActionColumn',
+         ['class' => 'app\widgets\grid\ActionColumn',
         'options' => [
             'width' => '120px',
         ],

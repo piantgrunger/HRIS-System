@@ -4,14 +4,14 @@
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
 
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 
 $gridColumns=[['class' => 'yii\grid\SerialColumn'], 
             'nama_jenis_absen',
             'status_hadir',
 
-           ['class' => 'yii\grid\ActionColumn', 'options' => [
+           ['class' => 'app\widgets\grid\ActionColumn', 'options' => [
             'width' => '120px',
         ],
         'contentOptions' => ['class' => 'td-actions text-right'],

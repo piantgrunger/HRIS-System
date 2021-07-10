@@ -3,7 +3,7 @@
 
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 use dmstr\widgets\Alert;
 
@@ -12,7 +12,7 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
             'tgl_akhir:date',
 //            'status_proses',
             'nama_satuan_kerja',
-         ['class' => 'yii\grid\ActionColumn',
+         ['class' => 'app\widgets\grid\ActionColumn',
         'options' => [
             'width' => '120px',
         ],

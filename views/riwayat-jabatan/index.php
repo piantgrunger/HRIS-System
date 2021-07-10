@@ -3,7 +3,7 @@
 
 use hscstudio\mimin\components\Mimin;
 use yii\helpers\Html;
-use dmstr\widgets\Alert;use yii\grid\GridView;
+use dmstr\widgets\Alert;use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 use kartik\export\ExportMenu;
 
@@ -16,7 +16,7 @@ $gridColumns=[['class' => 'yii\grid\SerialColumn'],
             // 'no_sk',
             // 'pejabat',
 
-         ['class' => 'yii\grid\ActionColumn',   'template' => Mimin::filterActionColumn([
+         ['class' => 'app\widgets\grid\ActionColumn',   'template' => Mimin::filterActionColumn([
               'update','delete','view'], $this->context->route),    ],    ];
 
 

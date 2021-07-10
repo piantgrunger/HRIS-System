@@ -122,7 +122,7 @@ use yii\helpers\Url;
                 </div>
             </div>
         </div>
-        <?php echo dmstr\widgets\Menu::widget(
+        <?php echo app\widgets\Menu::widget(
                     [
                 'options' => ['class' => 'nav'],
                 'items' => $menuItems,

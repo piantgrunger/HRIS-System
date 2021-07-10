@@ -2,7 +2,7 @@
 
 
 use dmstr\widgets\Alert;
-use yii\grid\GridView;
+use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 use yii\bootstrap\Modal;
 use yii\helpers\Html;
@@ -43,7 +43,7 @@ $gridColumns = [['class' => 'yii\grid\SerialColumn'],
             // 'file',
              'status_banding',
 
-         ['class' => 'yii\grid\ActionColumn',
+         ['class' => 'app\widgets\grid\ActionColumn',
         'contentOptions' => ['class' => 'td-actions text-right'],
         'headerOptions' => ['class' => 'text-right'],
          'template' => '{lihat}',   'buttons' => [

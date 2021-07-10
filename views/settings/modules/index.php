@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use dmstr\widgets\Alert;use yii\grid\GridView;
+use dmstr\widgets\Alert;use app\widgets\grid\GridView;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
@@ -40,7 +40,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             'url',
                             'fa_icon',
                             [
-                                'class' => 'yii\grid\ActionColumn',
+                                'class' => 'app\widgets\grid\ActionColumn',
                                 'header' => "Actions",
                                 'options' => [
                                     'width' => '120px',

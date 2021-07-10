@@ -50,7 +50,7 @@ class Pegawai extends \yii\db\ActiveRecord
                 ],
 
                 'value' => function () {
-                    return implode('-', array_reverse(explode('-', $this->tanggal_lahir)));
+                    return $this->scenario=='payroll'? $this->tanggal_lahir :implode('-', array_reverse(explode('-', $this->tanggal_lahir)));
                 },
             ],
 
@@ -62,7 +62,7 @@ class Pegawai extends \yii\db\ActiveRecord
                 ],
 
                 'value' => function () {
-                    return implode('-', array_reverse(explode('-', $this->tmt)));
+                    return $this->scenario=='payroll'? $this->tmt: implode('-', array_reverse(explode('-', $this->tmt)));
                 },
             ],
         ];
@@ -121,8 +121,16 @@ class Pegawai extends \yii\db\ActiveRecord
             'tanggal_lahir' => Yii::t('app', 'Tanggal Lahir'),
             'id_golongan' => 'Pangkat',
             'nama_golongan' => 'Pangkat',
+            'tmt' =>'Tanggal Masuk',
         ];
     }
+
+    public function scenarios() {
+        $scenarios = parent::scenarios();
+        $scenarios['payroll'] = ['gaji_pokok','gaji_lembur'];//Scenario Values Only Accepted
+	    return $scenarios;
+    }
+
 
     /**
      * @return \yii\db\ActiveQuery

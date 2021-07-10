@@ -28,6 +28,7 @@ class PayrollController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $model->scenario='payroll';
 
 
         if ($model->load(Yii::$app->request->post()) ) {
